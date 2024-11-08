@@ -1,0 +1,2427 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr" prefix="content: http://purl.org/rss/1.0/modules/content/  dc: http://purl.org/dc/terms/  foaf: http://xmlns.com/foaf/0.1/  og: http://ogp.me/ns#  rdfs: http://www.w3.org/2000/01/rdf-schema#  schema: http://schema.org/  sioc: http://rdfs.org/sioc/ns#  sioct: http://rdfs.org/sioc/types#  skos: http://www.w3.org/2004/02/skos/core#  xsd: http://www.w3.org/2001/XMLSchema# ">
+  <head>
+    <meta charset="utf-8" />
+<meta name="description" content="404 There&#039;s nothing here. Return home or report to HQ and let us know what happened." />
+<link rel="canonical" href="https://developer.vuforia.com/node/47" />
+<meta name="Generator" content="Drupal 9 (https://www.drupal.org)" />
+<meta name="MobileOptimized" content="width" />
+<meta name="HandheldFriendly" content="true" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<link rel="icon" href="/themes/custom/vuforiaui/favicon.ico" type="image/vnd.microsoft.icon" />
+
+    <title>page-not-found | Vuforia Library</title>
+    <link rel="stylesheet" media="all" href="/sites/default/files/css/css_TipDGasZyO2k0729d9Oeg7q589eOtGJ-W_V1EDBgZFQ.css" />
+<link rel="stylesheet" media="all" href="/sites/default/files/css/css_a3N7Id2167rN0EulqdtKt7Q2gsWmiMp0PaiDVFLINB8.css" />
+<link rel="stylesheet" media="print" href="/sites/default/files/css/css_Z5jMg7P_bjcW9iUzujI7oaechMyxQTUqZhHJ_aYSq04.css" />
+<link rel="stylesheet" media="all" href="/sites/default/files/css/css_WHYsV1oLun-mdPN12vqY74Iatb-OVjK0S9DHEv39QyA.css" />
+
+    <script src="https://use.fontawesome.com/releases/v5.13.1/js/all.js" defer crossorigin="anonymous"></script>
+<script src="https://use.fontawesome.com/releases/v5.13.1/js/v4-shims.js" defer crossorigin="anonymous"></script>
+
+<script type="text/javascript" async="" src="https://www.google-analytics.com/analytics.js"></script>
+	<script async="" src="//www.googletagmanager.com/gtm.js?id=GTM-MSNQ7J"></script>
+	<!-- Google Tag Manager -->
+
+	<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+
+new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+
+j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+
+'//www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+
+})(window,document,'script','dataLayer','GTM-MSNQ7J');</script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/clipboard.js/1.5.12/clipboard.min.js"></script>
+<script src="https://code.jquery.com/jquery-3.5.1.min.js" integrity="sha256-9/aliU8dGd2tb6OSsuzixeV4y/faTqgFtohetphbbj0=" crossorigin="anonymous"></script>
+<meta name="viewport" content="width=1024, maximum-scale=1.0">
+</head>
+  <body class="layout-one-sidebar layout-sidebar-first path-path page-node-type-page">
+
+        <a href="#main-content" class="visually-hidden focusable skip-link">
+      Skip to main content
+    </a>
+    
+      <div class="dialog-off-canvas-main-canvas" data-off-canvas-main-canvas>
+    <div id="page-wrapper">
+  <div id="page">
+  
+<header id="header" class="vuforia-header">
+    <div class="navbar navbar-fixed-top">
+        <div class="navbar-inner">
+            <div class="container">
+                <div class="header-wrapper">
+                    <input type="hidden" value="" id="userNameHeaderHidden">
+                    <a class="navbar-brand" href="/">developer portal</a>
+                    <div id="loggedInLogoutDiv" class="pull-right login-btn-block">
+                        <ul class="navbar-nav">
+                            <li class="dropdown login-user  rb">
+                                <a href="/vui/develop/dashboard">
+                                    <span id="helloUser">
+                                        <span class="userNameInHeaderSpan">
+                                            <span class="userNameInHeader"></span>
+                                            <span id="unreadMessages"></span>
+                                        </span>
+                                    </span>
+                                </a>
+                        </ul>
+                        <a id="accountLogOut" class="headerLink" onclick="logout()">Log Out</a>
+                    </div>
+                    <div id="loginRegisterDiv" class="pull-right login-btn-block">
+                        <a href="/auth/login" class="btn-no-style rb" id="vuforiaLogin">Log In</a>
+                        <a href="/auth/register" class="btn-no-style" id="vuforiaRegister">Register</a>
+                    </div>
+                    <div class="clearfix navigation-bar blockMenu">
+                                                <ul class="navbar-nav primary-nav">
+                                                    <li id="drupalHome" class="getStartedMenu commonParentMenu"><a href="/">Home</a></li>
+                            <li id="drupalDownloads" class="apisMenu commonParentMenu"><a
+                                    href="/downloads/sdk">Downloads</a>
+                            </li>
+                            <li id="drupalLibrary" class="resourcesMenu commonParentMenu"><a>Library</a></li>
+                            <li id="drupalSupport" class="supportMenu commonParentMenu"><a href="/support">Support</a>
+                            </li>
+                            <li id="drupalPricing"><a>Pricing</a></li>
+                            <li class="adminMenu commonParentMenu"><a href="#">Admin</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="navbar-sub-inner">
+            <div class="container">
+                <div class="subnav-new clearfix resources commonTab" style="display: none">
+                    <ul class="navbar-nav nav-pills">
+                        <li id="drupalSdk"><a href="downloads/sdk">SDK</a></li>
+                        <li id="drupalSamples"><a href="downloads/samples">Samples</a></li>
+                        <li id="drupalTools"><a href="downloads/tool">Tools</a></li>
+                    </ul>
+                </div>
+                <div class="subnav-new clearfix support commonTab" style="display: none">
+                    <ul class="navbar-nav nav-pills">
+                        <li id="drupalSupportCenter"><a href="support">Support Center</a></li>
+                        <li id="drupalForums"><a href="forum">Community Forums</a></li>
+                        <li id="drupalVIP"><a href="support/contact/cloud">VIP Support</a></li>
+                        <li id="drupalCloudSupport"><a href="support/contact/cloud">Production Support</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+</header>
+          <div class="highlighted">
+        <aside class="layout-container section clearfix" role="complementary">
+            <div class="region region-highlighted">
+    <div class="views-exposed-form block block-search container-inline search-form-realign" data-drupal-selector="views-exposed-form-search-content-page-1" id="block-exposedformsearch-contentpage-1-2">
+  
+    
+      <div class="content container-inline">
+      <form action="/search/content" method="get" id="views-exposed-form-search-content-page-1" accept-charset="UTF-8" class="search-form search-block-form">
+  <div class="form--inline clearfix">
+  <div class="js-form-item form-item js-form-type-search-api-autocomplete form-type-search-api-autocomplete js-form-item-keys form-item-keys form-no-label">
+        <input placeholder="Search the Library" data-drupal-selector="edit-keys" data-search-api-autocomplete-search="search_content" class="form-autocomplete" data-autocomplete-path="/search_api_autocomplete/search_content?display=page_1&amp;&amp;filter=keys" type="text" id="edit-keys" name="keys" value="" size="30" maxlength="128" />
+
+        </div>
+<div class="js-form-item form-item js-form-type-select form-type-select js-form-item-items-per-page form-item-items-per-page">
+      <label for="edit-items-per-page">Show</label>
+        <select data-drupal-selector="edit-items-per-page" id="edit-items-per-page" name="items_per_page" class="form-select"><option value="20" selected="selected">20</option><option value="50">50</option><option value="100">100</option></select>
+        </div>
+<div data-drupal-selector="edit-actions" class="form-actions js-form-wrapper form-wrapper" id="edit-actions"><input data-drupal-selector="edit-submit-search-content" type="submit" id="edit-submit-search-content" value="Search" class="button js-form-submit form-submit" />
+</div>
+
+</div>
+
+</form>
+
+    </div>
+  </div>
+<div data-drupal-messages-fallback class="hidden"></div>
+
+  </div>
+
+        </aside>
+      </div>
+            <div id="main-wrapper" class="layout-main-wrapper layout-container clearfix">
+      <div id="main" class="layout-main clearfix">
+        
+        <main id="content" class="column main-content" role="main">
+          <section class="section">
+            <a id="main-content" tabindex="-1"></a>
+              <div class="region region-content">
+    <div id="block-vuforialib-page-title" class="block block-core block-page-title-block">
+  
+    
+      <div class="content">
+      
+
+  <h1 class="title page-title"><span property="schema:name" class="field field--name-title field--type-string field--label-hidden">page-not-found</span>
+</h1>
+
+
+    </div>
+  </div>
+<div id="block-vuforialib-content" class="block block-system block-system-main-block">
+  
+    
+      <div class="content">
+      
+<article data-history-node-id="47" role="article" about="/node/47" typeof="schema:WebPage" class="node node--type-page node--view-mode-full clearfix">
+  <header>
+    
+            <span property="schema:name" content="page-not-found" class="rdf-meta hidden"></span>
+
+      </header>
+  <div class="node__content clearfix">
+    
+      <div class="clearfix text-formatted field field--name-body field--type-text-with-summary field--label-hidden field__items">
+              <div property="schema:text" class="field__item"><div class="responsive" style="position:relative;overflow:auto">
+<div style="text-align: center; font-size: 60px; width:100%;height:auto:"><strong>404</strong></div>
+
+<div style="text-align: center;">There's nothing here.</div>
+
+<div style="text-align: center;">Return <a href="https://developer.vuforia.com/library">home</a> or report to <a href="https://github.com/PTCInc/vuforia-engine/">HQ</a><br />
+and let us know what happened.</div><br />
+<img alt="404-not-found" data-entity-type="file" data-entity-uuid="b4ee2661-e095-4e57-b218-4b474b6979f0" src="/library/sites/default/files/vuforia-library/404/astronaut_landscape_small.png" style="width:100%;height:auto: none !important;" /></div>
+</div>
+          </div>
+  
+  </div>
+</article>
+
+    </div>
+  </div>
+
+  </div>
+
+          </section>
+        </main>
+                  <div id="sidebar-first" class="column sidebar">
+            <aside class="section" role="complementary">
+                <div class="region region-sidebar-first">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css">
+
+<script type="text/javascript">
+  $(document).ready(function () {
+    if (window.name != "")
+      $("#platform-tag").val(window.name);
+    if ($("#platform-tag").val() == "All") {
+      $("#block-sidebarmenu").show();
+      $("#block-sidebarmenunative").hide();
+      $("#block-sidebarmenuunity").hide();
+    } else if ($("#platform-tag").val() == "Native") {
+      $("#block-sidebarmenu").hide();
+      $("#block-sidebarmenunative").show();
+      $("#block-sidebarmenuunity").hide();
+    } else if ($("#platform-tag").val() == "Unity") {
+      $("#block-sidebarmenu").hide();
+      $("#block-sidebarmenunative").hide();
+      $("#block-sidebarmenuunity").show();
+    }
+  });
+  $(document).ready(function () {
+    $("#platform-tag").change(function () {
+      window.name = $("#platform-tag").val();
+      if ($("#platform-tag").val() == "All") {
+        $("#block-sidebarmenu").show();
+        $("#block-sidebarmenunative").hide();
+        $("#block-sidebarmenuunity").hide();
+      } else if ($("#platform-tag").val() == "Native") {
+        $("#block-sidebarmenu").hide();
+        $("#block-sidebarmenunative").show();
+        $("#block-sidebarmenuunity").hide();
+      } else if ($("#platform-tag").val() == "Unity") {
+        $("#block-sidebarmenu").hide();
+        $("#block-sidebarmenunative").hide();
+        $("#block-sidebarmenuunity").show();
+      }
+    });
+  });
+</script>
+
+<div class="filter row justify-content-between no-gutters">
+    <img class="filter-icon col-1"  src="https://developer.vuforia.com/themes/custom/vuforialib/images/filter-icon.svg">
+    <select id="platform-tag" class="filter-select col-md-10 ml-auto">
+        <option selected="selected" value="All">All Pages</option>
+        <option value="Unity">Unity</option>
+        <option value="Native">Native C API</option>
+    </select>
+</div>
+<nav role="navigation" aria-labelledby="block-sidebarmenu-menu" id="block-sidebarmenu" class="block block-menu navigation menu--sidebar-menu">
+            
+  <h2 class="visually-hidden" id="block-sidebarmenu-menu">Sidebar-menu</h2>
+  
+
+        <div class="content">
+            <div class="menu-toggle-target menu-toggle-target-show" id="show-block-sidebarmenu"></div>
+      <div class="menu-toggle-target" id="hide-block-sidebarmenu"></div>
+      <a class="menu-toggle" href="#show-block-sidebarmenu">Show &mdash; Sidebar-menu</a>
+      <a class="menu-toggle menu-toggle--hide" href="#hide-block-sidebarmenu">Hide &mdash; Sidebar-menu</a>
+      
+              <ul class="clearfix menu">
+                    <li class="menu-item menu-item--expanded">
+        <span class="collapse menu">Vuforia Engine</span>
+                                <ul class="menu">
+                    <li class="menu-item menu-item--expanded">
+        <span class="collapse menu-closed"><i class="fa fa fa-book fa-lg" aria-hidden="true"></i> <span class="link-text">Getting Started</span></span>
+                                <ul class="menu">
+                    <li class="menu-item">
+        <a href="/index.php/getting-started/overview" data-drupal-link-system-path="node/201">Overview</a>
+              </li>
+                <li class="menu-item">
+        <a href="/index.php/getting-started/vuforia-features" data-drupal-link-system-path="node/203">Vuforia Features</a>
+              </li>
+                <li class="menu-item">
+        <a href="/index.php/getting-started/tools-overview" data-drupal-link-system-path="node/202">Vuforia Tools</a>
+              </li>
+                <li class="menu-item menu-item--expanded">
+        <a href="/index.php/getting-started/vuforia-engine-10-api" class="collapse menu-closed" data-drupal-link-system-path="node/211">Vuforia Engine API</a>
+                                <ul class="menu">
+                    <li class="menu-item">
+        <a href="/index.php/getting-started/vuforia-engine-api-unity" data-drupal-link-system-path="node/213">Engine Lifecycle in Unity</a>
+              </li>
+                <li class="menu-item">
+        <a href="/index.php/getting-started/vuforia-engine-lifecycle" data-drupal-link-system-path="node/212">Engine Lifecycle in Native</a>
+              </li>
+                <li class="menu-item menu-item--expanded">
+        <a href="/index.php/getting-started/observer-and-observations" class="collapse menu-closed" data-drupal-link-system-path="node/271">Observer and Observations</a>
+                                <ul class="menu">
+                    <li class="menu-item">
+        <a href="/index.php/getting-started/pose-status-and-status-info-unity" data-drupal-link-system-path="node/272">Pose Status and Status Info in Unity</a>
+              </li>
+                <li class="menu-item">
+        <a href="/index.php/getting-started/pose-status-and-status-info-native" data-drupal-link-system-path="node/410">Pose Status and Status Info in Native</a>
+              </li>
+        </ul>
+  
+              </li>
+        </ul>
+  
+              </li>
+                <li class="menu-item menu-item--expanded">
+        <span class="collapse menu-closed">Development Environments</span>
+                                <ul class="menu">
+                    <li class="menu-item">
+        <a href="/index.php/getting-started/getting-started-vuforia-engine-unity" data-drupal-link-system-path="node/204"><i class="fa fab fa-unity" aria-hidden="true"></i> <span class="link-text">Unity</span></a>
+              </li>
+                <li class="menu-item">
+        <a href="/index.php/getting-started/getting-started-vuforia-engine-android-development" class="android bg_img" data-drupal-link-system-path="node/207">Android</a>
+              </li>
+                <li class="menu-item">
+        <a href="/index.php/getting-started/getting-started-vuforia-engine-ios-development" data-drupal-link-system-path="node/205"><i class="fa fa fa-apple fa-lg" aria-hidden="true"></i> <span class="link-text">iOS</span></a>
+              </li>
+                <li class="menu-item">
+        <a href="/index.php/getting-started/getting-started-vuforia-engine-and-magic-leap-2" class="magic-leap bg_img" data-drupal-link-system-path="node/397">Magic Leap OS</a>
+              </li>
+                <li class="menu-item">
+        <a href="/index.php/getting-started/getting-started-vuforia-engine-windows-10-development" data-drupal-link-system-path="node/206"><i class="fa fa fa-windows fa-lg" aria-hidden="true"></i> <span class="link-text">UWP</span></a>
+              </li>
+        </ul>
+  
+              </li>
+                <li class="menu-item menu-item--expanded">
+        <a href="/index.php/getting-started/register-vuforia-engine-developer" class="collapse menu-closed" data-drupal-link-system-path="node/208">Engine Developer Portal</a>
+                                <ul class="menu">
+                    <li class="menu-item">
+        <a href="/index.php/getting-started/vuforia-account-manager" data-drupal-link-system-path="node/407">Account Tab</a>
+              </li>
+                <li class="menu-item">
+        <a href="/index.php/getting-started/vuforia-license-manager" data-drupal-link-system-path="node/209">Licenses Tab</a>
+              </li>
+                <li class="menu-item">
+        <a href="/index.php/getting-started/vuforia-target-manager" data-drupal-link-system-path="node/210">Target Manager</a>
+              </li>
+                <li class="menu-item">
+        <a href="/index.php/getting-started/credentials-manager" data-drupal-link-system-path="node/406">Credentials Tab</a>
+              </li>
+        </ul>
+  
+              </li>
+        </ul>
+  
+              </li>
+                <li class="menu-item menu-item--expanded">
+        <span class="collapse menu-closed"><i class="fa fa fa-object-ungroup" aria-hidden="true"></i> <span class="link-text">Images &amp; Objects</span></span>
+                                <ul class="menu">
+                    <li class="menu-item menu-item--expanded">
+        <a href="/index.php/objects/image-targets" class="collapse menu-closed" data-drupal-link-system-path="node/216">Image Targets</a>
+                                <ul class="menu">
+                    <li class="menu-item">
+        <a href="/index.php/objects/instant-image-targets" data-drupal-link-system-path="node/224">Instant Image Targets</a>
+              </li>
+                <li class="menu-item menu-item--expanded">
+        <a href="/index.php/objects/best-practices-designing-and-developing-image-based-targets" class="collapse menu-closed" data-drupal-link-system-path="node/217">Best Practices</a>
+                                <ul class="menu">
+                    <li class="menu-item">
+        <a href="/index.php/objects/image-targets-optimization-techniques" data-drupal-link-system-path="node/218">Image Optimization</a>
+              </li>
+                <li class="menu-item">
+        <a href="/index.php/objects/physical-properties-image-based-targets" data-drupal-link-system-path="node/219">Image Properties</a>
+              </li>
+        </ul>
+  
+              </li>
+                <li class="menu-item menu-item--expanded">
+        <a href="/index.php/objects/device-databases" class="collapse menu-closed" data-drupal-link-system-path="node/362">Device Databases</a>
+                                <ul class="menu">
+                    <li class="menu-item">
+        <a href="/index.php/objects/comparison-device-and-cloud-databases" data-drupal-link-system-path="node/221">Device vs Cloud Databases</a>
+              </li>
+                <li class="menu-item">
+        <a href="/index.php/objects/modify-dataset-configuration-xml-file" data-drupal-link-system-path="node/222">Dataset Configuration XML File</a>
+              </li>
+        </ul>
+  
+              </li>
+                <li class="menu-item">
+        <a href="/index.php/objects/detect-and-track-multiple-targets-simultaneously" data-drupal-link-system-path="node/226">Simultaneous Tracking</a>
+              </li>
+                <li class="menu-item menu-item--expanded">
+        <a href="/index.php/objects/image-targets-api-overview" class="collapse menu-closed" data-drupal-link-system-path="node/225">Image Targets API Overview</a>
+                                <ul class="menu">
+                    <li class="menu-item">
+        <a href="/index.php/objects/create-and-modify-targets-native" data-drupal-link-system-path="node/357">Modify Targets at Runtime</a>
+              </li>
+        </ul>
+  
+              </li>
+                <li class="menu-item">
+        <a href="/index.php/objects/native-vuforia-engine-sample" data-drupal-link-system-path="node/363">Native Samples</a>
+              </li>
+        </ul>
+  
+              </li>
+                <li class="menu-item menu-item--expanded">
+        <a href="/index.php/objects/cylinder-targets" class="collapse menu-closed" data-drupal-link-system-path="node/266">Cylinder Targets</a>
+                                <ul class="menu">
+                    <li class="menu-item">
+        <a href="/index.php/cylinder-targets/recommendations-designing-cylinder-targets" data-drupal-link-system-path="node/267">Best Practices</a>
+              </li>
+                <li class="menu-item">
+        <a href="/index.php/cylinder-targets/how-calculate-dimensions-conical-and-cylindrical-cylinder-targets" data-drupal-link-system-path="node/268">Calculating Cylinders</a>
+              </li>
+                <li class="menu-item">
+        <a href="/index.php/cylinder-targets/cylinder-targets-api-overview" data-drupal-link-system-path="node/270">Cylinder Targets API Overview</a>
+              </li>
+        </ul>
+  
+              </li>
+                <li class="menu-item menu-item--expanded">
+        <a href="/index.php/objects/multi-targets" class="collapse menu-closed" data-drupal-link-system-path="node/364">Multi Targets</a>
+                                <ul class="menu">
+                    <li class="menu-item">
+        <a href="/index.php/objects/recommendations-designing-multi-targets" data-drupal-link-system-path="node/365">Best Practices</a>
+              </li>
+                <li class="menu-item">
+        <a href="/index.php/objects/multi-targets-api-overview" data-drupal-link-system-path="node/229">Multi Targets API Overview</a>
+              </li>
+        </ul>
+  
+              </li>
+                <li class="menu-item menu-item--expanded">
+        <a href="/index.php/objects/model-targets" class="menu-closed collapse" data-drupal-link-system-path="node/231">Model Targets</a>
+                                <ul class="menu">
+                    <li class="menu-item menu-item--expanded">
+        <a href="/index.php/model-targets/how-create-model-target" class="collapse menu-closed" data-drupal-link-system-path="node/232">Creating Model Targets</a>
+                                <ul class="menu">
+                    <li class="menu-item">
+        <a href="/index.php/objects/printing-and-assembling-viking-lander" data-drupal-link-system-path="node/233">Viking Lander</a>
+              </li>
+        </ul>
+  
+              </li>
+                <li class="menu-item menu-item--expanded">
+        <a href="/index.php/objects/model-target-generator-user-guide" class="menu-closed collapse" data-drupal-link-system-path="node/366">Model Target Generator</a>
+                                <ul class="menu">
+                    <li class="menu-item">
+        <a href="/index.php/model-targets/cli" data-drupal-link-system-path="node/339">Model Target CLI</a>
+              </li>
+                <li class="menu-item">
+        <a href="/index.php/model-targets/automatic-coloring-model-targets" data-drupal-link-system-path="node/234">Automatic Coloring</a>
+              </li>
+        </ul>
+  
+              </li>
+                <li class="menu-item menu-item--expanded">
+        <a href="/index.php/model-targets/model-target-guide-view" class="menu-closed collapse" data-drupal-link-system-path="node/236">Guide View</a>
+                                <ul class="menu">
+                    <li class="menu-item">
+        <a href="/index.php/model-targets/advanced-views" data-drupal-link-system-path="node/396">Advanced Views</a>
+              </li>
+        </ul>
+  
+              </li>
+                <li class="menu-item">
+        <a href="/index.php/model-targets/advanced-model-target-databases" data-drupal-link-system-path="node/237">Advanced Model Target Databases</a>
+              </li>
+                <li class="menu-item menu-item--expanded">
+        <a href="/index.php/model-targets/state-based-model-targets" class="collapse menu-closed" data-drupal-link-system-path="node/424">State-Based Model Targets</a>
+                                <ul class="menu">
+                    <li class="menu-item">
+        <a href="/index.php/model-targets/illustration-files-and-process-plans-state-based-model-targets" data-drupal-link-system-path="node/425">Illustration Files and Process Plans</a>
+              </li>
+                <li class="menu-item">
+        <a href="/index.php/model-targets/generate-state-based-model-targets" data-drupal-link-system-path="node/426">Generate State-Based Model Targets</a>
+              </li>
+                <li class="menu-item">
+        <a href="/index.php/model-targets/state-based-model-targets-unity" data-drupal-link-system-path="node/427">Unity</a>
+              </li>
+                <li class="menu-item">
+        <a href="/index.php/model-targets/state-based-model-targets-native" data-drupal-link-system-path="node/428">API Overview</a>
+              </li>
+        </ul>
+  
+              </li>
+                <li class="menu-item">
+        <a href="/index.php/model-targets/optimizing-model-target-tracking" data-drupal-link-system-path="node/239">Optimizing Tracking</a>
+              </li>
+                <li class="menu-item menu-item--expanded">
+        <a href="/index.php/model-targets/introduction-model-targets-unity" class="collapse menu-closed" data-drupal-link-system-path="node/240">Unity Guide</a>
+                                <ul class="menu">
+                    <li class="menu-item">
+        <a href="/index.php/model-targets/model-target-runtime-scripting" data-drupal-link-system-path="node/423">Runtime Scripting</a>
+              </li>
+        </ul>
+  
+              </li>
+                <li class="menu-item">
+        <a href="/index.php/model-targets/model-target-test-app-user-guide" data-drupal-link-system-path="node/241">Test App</a>
+              </li>
+                <li class="menu-item menu-item--expanded">
+        <a href="/index.php/model-targets/model-targets-supported-objects-cad-model-best-practices" class="menu-closed collapse" data-drupal-link-system-path="node/242"><i class="fa fa fa-sun-o" aria-hidden="true"></i> <span class="link-text">Best Practices</span></a>
+                                <ul class="menu">
+                    <li class="menu-item">
+        <a href="/index.php/objects/best-practices-managing-scaling-model-targets" data-drupal-link-system-path="node/367">Scaling Model Targets</a>
+              </li>
+                <li class="menu-item">
+        <a href="/index.php/model-targets/3d-printing-cad-models-testing-ar-applications" data-drupal-link-system-path="node/420">3D Printing CAD Models</a>
+              </li>
+        </ul>
+  
+              </li>
+                <li class="menu-item menu-item--expanded">
+        <a href="/index.php/model-targets/how-create-model-targets-3d-scans" class="collapse menu-closed" data-drupal-link-system-path="node/243">Using 3D Scans</a>
+                                <ul class="menu">
+                    <li class="menu-item">
+        <a href="/index.php/using-3d-scans/model-targets-apples-object-capture" data-drupal-link-system-path="node/381">Apple Object Capture</a>
+              </li>
+                <li class="menu-item">
+        <a href="/index.php/model-targets/using-3d-scans/model-targets-metascan" data-drupal-link-system-path="node/382">Metascan</a>
+              </li>
+                <li class="menu-item">
+        <a href="/index.php/using-3d-scans/model-targets-polycam" data-drupal-link-system-path="node/383">Polycam</a>
+              </li>
+                <li class="menu-item">
+        <a href="/index.php/using-3d-scans/creating-model-target-photogrammetric-scans" data-drupal-link-system-path="node/244">Photogremmetric Scans</a>
+              </li>
+                <li class="menu-item">
+        <a href="/index.php/objects/comparison-object-tracking-methods" data-drupal-link-system-path="node/230">CAD and 3D Models</a>
+              </li>
+        </ul>
+  
+              </li>
+                <li class="menu-item">
+        <a href="/index.php/objects/model-targets-api-overview" data-drupal-link-system-path="node/245">Model Targets API Overview</a>
+              </li>
+        </ul>
+  
+              </li>
+                <li class="menu-item menu-item--expanded">
+        <a href="/index.php/objects/cloud-recognition" class="collapse menu-closed" data-drupal-link-system-path="node/252">Cloud Recognition</a>
+                                <ul class="menu">
+                    <li class="menu-item">
+        <a href="/index.php/cloud-recognition/working-cloud-recognition" data-drupal-link-system-path="node/253">Working with Cloud Recognition</a>
+              </li>
+                <li class="menu-item">
+        <a href="/index.php/cloud-recognition/cloud-databases" data-drupal-link-system-path="node/254">Cloud Databases</a>
+              </li>
+                <li class="menu-item">
+        <a href="/index.php/cloud-recognition/cloud-recognition-api-overview" data-drupal-link-system-path="node/411">API Overview</a>
+              </li>
+                <li class="menu-item">
+        <a href="/index.php/cloud-recognition/counting-cloud-recognition-events" data-drupal-link-system-path="node/255">Counting Recognition Events</a>
+              </li>
+        </ul>
+  
+              </li>
+                <li class="menu-item menu-item--expanded">
+        <a href="/index.php/objects/barcode-scanner" class="menu-closed collapse" data-drupal-link-system-path="node/400">Barcode Scanner</a>
+                                <ul class="menu">
+                    <li class="menu-item">
+        <a href="/index.php/objects/barcode-scanner/barcode-scanner-in-unity" data-drupal-link-system-path="node/401">Unity Guide</a>
+              </li>
+                <li class="menu-item">
+        <a href="/index.php/objects/barcode-scanner/best-practices-for-barcode-scanning" data-drupal-link-system-path="node/402">Best Practices for Barcode Scanning</a>
+              </li>
+                <li class="menu-item">
+        <a href="/index.php/objects/barcode-scanner/barcode-scanner-API-overview" data-drupal-link-system-path="node/403">Barcode Scanner API Overview</a>
+              </li>
+        </ul>
+  
+              </li>
+                <li class="menu-item menu-item--expanded">
+        <a href="/index.php/objects/vumarks" class="collapse menu-closed" data-drupal-link-system-path="node/259">VuMarks</a>
+                                <ul class="menu">
+                    <li class="menu-item menu-item--expanded">
+        <a href="/index.php/vumarks/vumark-design-guide" class="menu-closed collapse" data-drupal-link-system-path="node/260">Design Guide</a>
+                                <ul class="menu">
+                    <li class="menu-item">
+        <a href="/index.php/design-guide/designing-vumark-adobe-illustrator" data-drupal-link-system-path="node/261">Designing VuMarks in Adobe Illustrator</a>
+              </li>
+        </ul>
+  
+              </li>
+                <li class="menu-item">
+        <a href="/index.php/vumarks/vumark-databases" data-drupal-link-system-path="node/262">VuMark Databases</a>
+              </li>
+                <li class="menu-item">
+        <a href="/index.php/vumarks/vumarks-unity" data-drupal-link-system-path="node/263">Unity Guide</a>
+              </li>
+                <li class="menu-item">
+        <a href="/index.php/vumarks/api-overview" data-drupal-link-system-path="node/264">VuMarks API Overview</a>
+              </li>
+        </ul>
+  
+              </li>
+                <li class="menu-item">
+        <a href="/index.php/objects/sample-apps-target-pdfs" data-drupal-link-system-path="node/269">Sample Targets as Printable PDFs</a>
+              </li>
+        </ul>
+  
+              </li>
+                <li class="menu-item menu-item--expanded">
+        <span class="environments bg_img collapse menu-closed">Environments</span>
+                                <ul class="menu">
+                    <li class="menu-item menu-item--expanded">
+        <a href="/index.php/environments/area-targets" class="collapse menu-closed" data-drupal-link-system-path="node/277">Area Targets</a>
+                                <ul class="menu">
+                    <li class="menu-item menu-item--expanded">
+        <a href="/index.php/area-targets/best-practices-scanning-environment" class="collapse menu-closed" data-drupal-link-system-path="node/358">Scanning an Environment</a>
+                                <ul class="menu">
+                    <li class="menu-item">
+        <a href="/index.php/area-targets/leica-scans" data-drupal-link-system-path="node/352">Leica Scans</a>
+              </li>
+                <li class="menu-item">
+        <a href="/index.php/scanning-environment/area-targets-matterporttm-scans" data-drupal-link-system-path="node/279">Matterport™ Scans</a>
+              </li>
+                <li class="menu-item">
+        <a href="/index.php/area-targets/navvis-scans" data-drupal-link-system-path="node/351">NavVis Scans</a>
+              </li>
+        </ul>
+  
+              </li>
+                <li class="menu-item menu-item--expanded">
+        <a href="/index.php/area-targets/create-area-targets" class="collapse menu-closed" data-drupal-link-system-path="node/360">Creating Area Targets</a>
+                                <ul class="menu">
+                    <li class="menu-item">
+        <a href="/index.php/tools/creator-app" data-drupal-link-system-path="node/399">Creator App</a>
+              </li>
+                <li class="menu-item">
+        <a href="/index.php/creating-area-targets/area-target-generator-user-guide" data-drupal-link-system-path="node/282">Area Target Generator</a>
+              </li>
+        </ul>
+  
+              </li>
+                <li class="menu-item menu-item--expanded">
+        <a href="/index.php/develop-area-targets/area-target-api-overview" class="collapse menu-closed" data-drupal-link-system-path="node/283">Develop with Area Targets</a>
+                                <ul class="menu">
+                    <li class="menu-item">
+        <a href="/index.php/develop-area-targets/area-targets-test-app-user-guide" data-drupal-link-system-path="node/284">Test App</a>
+              </li>
+                <li class="menu-item">
+        <a href="/index.php/develop-area-targets/area-targets-unity" data-drupal-link-system-path="node/285">Unity Guide</a>
+              </li>
+                <li class="menu-item">
+        <a href="/index.php/develop-area-targets/multiple-area-targets" data-drupal-link-system-path="node/341">Multiple Area Targets</a>
+              </li>
+                <li class="menu-item">
+        <a href="/index.php/develop-area-targets/using-unitys-navmesh-navigation-area-targets" data-drupal-link-system-path="node/286">NavMesh Navigation</a>
+              </li>
+                <li class="menu-item menu-item--expanded">
+        <a href="/index.php/develop-area-targets/geolocation-external-prior-area-targets" class="menu-closed collapse" data-drupal-link-system-path="node/404">Geolocation as External Prior</a>
+                                <ul class="menu">
+                    <li class="menu-item">
+        <a href="/index.php/develop-area-targets/geolocation-external-prior-area-targets/georeferencing-area-targets" data-drupal-link-system-path="node/405">Georeferencing Area Targets</a>
+              </li>
+        </ul>
+  
+              </li>
+        </ul>
+  
+              </li>
+                <li class="menu-item menu-item--expanded">
+        <a href="/index.php/develop-area-targets/capture-api" class="collapse menu-closed" data-drupal-link-system-path="node/377">Capture API</a>
+                                <ul class="menu">
+                    <li class="menu-item">
+        <a href="/index.php/area-targets/area-target-capture-api-unity" data-drupal-link-system-path="node/386">Capture API for Unity</a>
+              </li>
+                <li class="menu-item">
+        <a href="/index.php/area-targets/area-target-capture-api-native" data-drupal-link-system-path="node/387">Capture API for Native</a>
+              </li>
+        </ul>
+  
+              </li>
+        </ul>
+  
+              </li>
+                <li class="menu-item menu-item--expanded">
+        <a href="/index.php/environments/ground-plane" class="collapse menu-closed" data-drupal-link-system-path="node/287">Ground Plane</a>
+                                <ul class="menu">
+                    <li class="menu-item">
+        <a href="/index.php/ground-plane/introduction-ground-plane-unity" data-drupal-link-system-path="node/288">Unity Guide</a>
+              </li>
+                <li class="menu-item">
+        <a href="/index.php/environments/ground-plane-api-overview" data-drupal-link-system-path="node/289">API Overview</a>
+              </li>
+        </ul>
+  
+              </li>
+                <li class="menu-item menu-item--expanded">
+        <a href="/index.php/environments/device-tracking" class="collapse menu-closed" data-drupal-link-system-path="node/273">Device Tracking</a>
+                                <ul class="menu">
+                    <li class="menu-item menu-item--expanded">
+        <a href="/index.php/environments/vuforia-fusion" class="collapse menu-closed" data-drupal-link-system-path="node/301">Vuforia Fusion</a>
+                                <ul class="menu">
+                    <li class="menu-item">
+        <a href="/index.php/environments/best-practices-continued-ar-experiences" data-drupal-link-system-path="node/304">Continued AR Experiences</a>
+              </li>
+        </ul>
+  
+              </li>
+                <li class="menu-item">
+        <a href="/index.php/device-tracking/enable-device-tracking-unity" data-drupal-link-system-path="node/274">Unity Guide</a>
+              </li>
+                <li class="menu-item">
+        <a href="/index.php/device-tracking/device-tracking-api-overview" data-drupal-link-system-path="node/275">Device Tracking Native API</a>
+              </li>
+                <li class="menu-item">
+        <a href="/index.php/device-tracking/spatial-frame-reference" data-drupal-link-system-path="node/276">Spatial Frame of Reference in Unity</a>
+              </li>
+                <li class="menu-item">
+        <a href="/index.php/device-tracking/spatial-frame-reference-native" data-drupal-link-system-path="node/416">Spatial Frame of Reference for Native</a>
+              </li>
+        </ul>
+  
+              </li>
+        </ul>
+  
+              </li>
+                <li class="menu-item menu-item--expanded">
+        <span class="collapse menu-closed">Unity Extension</span>
+                                <ul class="menu">
+                    <li class="menu-item">
+        <a href="/index.php/getting-started/vuforia-engine-package-unity" data-drupal-link-system-path="node/215">Vuforia Package for Unity</a>
+              </li>
+                <li class="menu-item menu-item--expanded">
+        <a href="/index.php/unity-extension/vuforia-vfx-library" class="collapse menu-closed" data-drupal-link-system-path="node/378">Vuforia VFX Library</a>
+                                <ul class="menu">
+                    <li class="menu-item">
+        <a href="/index.php/unity-extension/vuforia-vfx-library-overview" data-drupal-link-system-path="node/379">VFX Overview</a>
+              </li>
+                <li class="menu-item">
+        <a href="/index.php/unity-extension/tinkering-vuforia-vfx-library" data-drupal-link-system-path="node/380">Tinkering with VFX</a>
+              </li>
+                <li class="menu-item">
+        <a href="/index.php/unity-extension/vuforia-vfx-minimap-area-targets" data-drupal-link-system-path="node/385">VFX Minimap</a>
+              </li>
+        </ul>
+  
+              </li>
+                <li class="menu-item menu-item--expanded">
+        <a href="/index.php/unity-extension/working-vuforia-engine-and-unity" class="collapse menu-closed" data-drupal-link-system-path="node/290">Working with Vuforia Engine</a>
+                                <ul class="menu">
+                    <li class="menu-item">
+        <a href="/index.php/unity-extension/create-and-load-targets-unity" data-drupal-link-system-path="node/388">Create and Load Targets in Unity</a>
+              </li>
+        </ul>
+  
+              </li>
+                <li class="menu-item">
+        <a href="/index.php/unity-extension/vuforia-play-mode-unity" data-drupal-link-system-path="node/291">Vuforia Play Mode in Unity</a>
+              </li>
+                <li class="menu-item menu-item--expanded">
+        <a href="/index.php/unity-extension/building-large-vuforia-engine-apps-unity" class="collapse menu-closed" data-drupal-link-system-path="node/292">Large Vuforia Apps in Unity</a>
+                                <ul class="menu">
+                    <li class="menu-item">
+        <a href="/index.php/unity-extension/load-vuforia-targets-sd-card-unity" data-drupal-link-system-path="node/293">Load from SD Card</a>
+              </li>
+                <li class="menu-item">
+        <a href="/index.php/unity-extension/package-augmentations-unity-assetbundles" data-drupal-link-system-path="node/294">AssetBundles</a>
+              </li>
+        </ul>
+  
+              </li>
+                <li class="menu-item">
+        <a href="/index.php/unity-extension/vuforia-engine-and-ar-foundation" data-drupal-link-system-path="node/295">AR Foundation</a>
+              </li>
+                <li class="menu-item">
+        <a href="/index.php/unity-extension/using-vuforia-engine-unity-library-uaal" data-drupal-link-system-path="node/296">Vuforia Engine with Unity as a Library</a>
+              </li>
+                <li class="menu-item">
+        <a href="/index.php/unity-extension/virtual-scene-scale-factor-unity" data-drupal-link-system-path="node/297">Virtual Scene Scale Factor</a>
+              </li>
+        </ul>
+  
+              </li>
+                <li class="menu-item menu-item--expanded">
+        <span class="collapse menu-closed">Web API</span>
+                                <ul class="menu">
+                    <li class="menu-item">
+        <a href="/index.php/web-api/vuforia-web-services-api" data-drupal-link-system-path="node/389">Vuforia Web Services</a>
+              </li>
+                <li class="menu-item">
+        <a href="/index.php/web-api/vuforia-web-api-authentication" data-drupal-link-system-path="node/390">Authentication</a>
+              </li>
+                <li class="menu-item">
+        <a href="/index.php/web-api/model-target-web-api" data-drupal-link-system-path="node/391">Model Targets</a>
+              </li>
+                <li class="menu-item">
+        <a href="/index.php/web-api/cloud-targets-web-services-api" data-drupal-link-system-path="node/392">Cloud Targets</a>
+              </li>
+                <li class="menu-item">
+        <a href="/index.php/web-api/vuforia-query-web-api" data-drupal-link-system-path="node/393">Cloud Query</a>
+              </li>
+                <li class="menu-item">
+        <a href="/index.php/web-api/vumark-generation-web-api" data-drupal-link-system-path="node/394">VuMarks</a>
+              </li>
+                <li class="menu-item">
+        <a href="/index.php/sites/default/files/references/mt-web-api-openapi.html" target="_blank">Web API Reference Library</a>
+              </li>
+        </ul>
+  
+              </li>
+                <li class="menu-item menu-item--expanded">
+        <span class="collapse menu-closed">Platform Support</span>
+                                <ul class="menu">
+                    <li class="menu-item">
+        <a href="/index.php/platform-support/supported-versions" data-drupal-link-system-path="node/368">Supported Versions</a>
+              </li>
+                <li class="menu-item">
+        <a href="/index.php/platform-support/recommended-devices" data-drupal-link-system-path="node/300">Recommended Devices</a>
+              </li>
+                <li class="menu-item menu-item--expanded">
+        <a href="/index.php/platform-support/camera" class="collapse menu-closed" data-drupal-link-system-path="node/370">Camera</a>
+                                <ul class="menu">
+                    <li class="menu-item">
+        <a href="/index.php/platform-support/working-camera-unity" class="collapse menu-closed" data-drupal-link-system-path="node/315">Camera in Unity</a>
+              </li>
+                <li class="menu-item menu-item--expanded">
+        <a href="/index.php/platform-support/working-camera-native" class="collapse menu-closed" data-drupal-link-system-path="node/316">Camera in Native</a>
+                                <ul class="menu">
+                    <li class="menu-item">
+        <a href="/index.php/platform-support/vuforia-engine-camera-api-overview" data-drupal-link-system-path="node/317">Camera API Overview</a>
+              </li>
+        </ul>
+  
+              </li>
+                <li class="menu-item">
+        <a href="/index.php/platform-support/device-performance-optimization" data-drupal-link-system-path="node/327">Performance Optimization</a>
+              </li>
+                <li class="menu-item">
+        <a href="/index.php/platform-support/vuforia-camera-bridge" data-drupal-link-system-path="node/417">Vuforia Camera Bridge</a>
+              </li>
+                <li class="menu-item menu-item--expanded">
+        <a href="/index.php/platform-support/driver-framework" class="collapse menu-closed" data-drupal-link-system-path="node/307"><i class="fa fa fa-cubes" aria-hidden="true"></i> <span class="link-text">Driver Framework</span></a>
+                                <ul class="menu">
+                    <li class="menu-item menu-item--expanded">
+        <a href="/index.php/platform-support/creating-custom-driver" class="collapse menu-closed" data-drupal-link-system-path="node/311">Simple Driver</a>
+                                <ul class="menu">
+                    <li class="menu-item">
+        <a href="/index.php/platform-support/external-camera-calibration" data-drupal-link-system-path="node/314">Camera Calibration</a>
+              </li>
+        </ul>
+  
+              </li>
+                <li class="menu-item">
+        <a href="/index.php/platform-support/vuforia-support-custom-devices-using-vuforia-driver" data-drupal-link-system-path="node/312">Advanced Driver</a>
+              </li>
+                <li class="menu-item">
+        <a href="/index.php/platform-support/using-external-cameras-uwp" data-drupal-link-system-path="node/412">External Cameras</a>
+              </li>
+                <li class="menu-item">
+        <a href="/index.php/platform-support/building-and-using-file-driver-sample" data-drupal-link-system-path="node/308">File Driver Sample in Unity</a>
+              </li>
+                <li class="menu-item">
+        <a href="/index.php/platform-support/building-and-using-file-driver-sample-native" data-drupal-link-system-path="node/415">File Driver Sample in Native</a>
+              </li>
+        </ul>
+  
+              </li>
+        </ul>
+  
+              </li>
+                <li class="menu-item menu-item--expanded">
+        <a href="/index.php/platform-support/platform-frameworks" class="collapse menu-closed" data-drupal-link-system-path="node/371">Platform Frameworks</a>
+                                <ul class="menu">
+                    <li class="menu-item">
+        <a href="/index.php/platform-support/using-arcore-vuforia-engine" data-drupal-link-system-path="node/369">ARCore in Unity</a>
+              </li>
+                <li class="menu-item">
+        <a href="/index.php/platform-support/using-arcore-vuforia-engine-native" data-drupal-link-system-path="node/414">ARCore in Native</a>
+              </li>
+                <li class="menu-item menu-item--expanded">
+        <a href="/index.php/platform-support/using-vuforia-fusion-platform-handle" class="collapse menu-closed" data-drupal-link-system-path="node/302">Platform Handle</a>
+                                <ul class="menu">
+                    <li class="menu-item">
+        <a href="/index.php/platform-support/using-vuforia-fusion-illumination" data-drupal-link-system-path="node/303">Illumination</a>
+              </li>
+        </ul>
+  
+              </li>
+        </ul>
+  
+              </li>
+                <li class="menu-item menu-item--expanded">
+        <a href="/index.php/platform-support/recording-and-playback" class="collapse menu-closed" data-drupal-link-system-path="node/305"><i class="fa fa fa-play" aria-hidden="true"></i> <span class="link-text">Recording and Playback</span></a>
+                                <ul class="menu">
+                    <li class="menu-item">
+        <a href="/index.php/platform-support/session-recorder-api-overview" data-drupal-link-system-path="node/306">Unity API</a>
+              </li>
+                <li class="menu-item">
+        <a href="/index.php/platform-support/session-recorder-native-api" data-drupal-link-system-path="node/413">Native API</a>
+              </li>
+        </ul>
+  
+              </li>
+                <li class="menu-item menu-item--expanded">
+        <a href="/index.php/platform-support/vuforia-engine-digital-eyewear" class="collapse menu-closed" data-drupal-link-system-path="node/319">Digital Eyewear</a>
+                                <ul class="menu">
+                    <li class="menu-item">
+        <a href="/index.php/platform-support/best-practices-optical-see-through-digital-eyewear-experiences" data-drupal-link-system-path="node/320">Best Practices for Eyewear Experiences</a>
+              </li>
+                <li class="menu-item">
+        <a href="/index.php/platform-support/vuforia-digital-eyewear-sample" data-drupal-link-system-path="node/422">Digital Eyewear Sample</a>
+              </li>
+                <li class="menu-item menu-item--expanded">
+        <a href="/index.php/platform-support/developing-vuforia-engine-apps-hololens" class="collapse menu-closed" data-drupal-link-system-path="node/321">HoloLens Apps</a>
+                                <ul class="menu">
+                    <li class="menu-item">
+        <a href="/index.php/platform-support/capturing-and-viewing-event-logs-etw" data-drupal-link-system-path="node/323">Event Logs with ETW</a>
+              </li>
+        </ul>
+  
+              </li>
+                <li class="menu-item">
+        <a href="/index.php/platform-support/developing-vuforia-engine-apps-magic-leap" class="collapse menu-closed" data-drupal-link-system-path="node/324">Magic Leap Apps</a>
+              </li>
+        </ul>
+  
+              </li>
+                <li class="menu-item menu-item--expanded">
+        <a href="/index.php/platform-support/rendering-native" class="menu-closed collapse" data-drupal-link-system-path="node/328">Rendering in Native</a>
+                                <ul class="menu">
+                    <li class="menu-item">
+        <a href="/index.php/platform-support/rendering-in-native/mesh-observer" data-drupal-link-system-path="node/395">Mesh Observer</a>
+              </li>
+        </ul>
+  
+              </li>
+        </ul>
+  
+              </li>
+                <li class="menu-item menu-item--expanded">
+        <span class="collapse menu-closed">Data Security</span>
+                                <ul class="menu">
+                    <li class="menu-item">
+        <a href="/index.php/faqs/vuforia-engine-data-security" data-drupal-link-system-path="node/408">Overview</a>
+              </li>
+                <li class="menu-item">
+        <a href="/index.php/objects/model-target-generator-data-processing" data-drupal-link-system-path="node/235">Model Target Data</a>
+              </li>
+                <li class="menu-item">
+        <a href="/index.php/area-targets/area-target-generation-data-processing" data-drupal-link-system-path="node/409">Area Target Data</a>
+              </li>
+        </ul>
+  
+              </li>
+                <li class="menu-item menu-item--expanded">
+        <span class="collapse menu-closed"><i class="fa fa fa-code" aria-hidden="true"></i> <span class="link-text">API</span></span>
+                                <ul class="menu">
+                    <li class="menu-item">
+        <a href="/index.php/sites/default/files/references/unity/index.html" target="_blank"><i class="fa fab fa-unity" aria-hidden="true"></i> <span class="link-text">Unity API</span></a>
+              </li>
+                <li class="menu-item">
+        <a href="/index.php/sites/default/files/references/native/index.html" target="_blank" class="c-plus bg_img">C API</a>
+              </li>
+        </ul>
+  
+              </li>
+                <li class="menu-item menu-item--expanded">
+        <span class="collapse menu-closed"><i class="fa fa fa-question" aria-hidden="true"></i> <span class="link-text">FAQ</span></span>
+                                <ul class="menu">
+                    <li class="menu-item">
+        <a href="/index.php/faqs/frequently-asked-questions" data-drupal-link-system-path="node/343">Overview</a>
+              </li>
+                <li class="menu-item">
+        <a href="/index.php/faqs/usage" data-drupal-link-system-path="node/336">Images &amp; Objects Tracking</a>
+              </li>
+                <li class="menu-item">
+        <a href="/index.php/faqs/environment/tracking" data-drupal-link-system-path="node/334">Environment Tracking</a>
+              </li>
+                <li class="menu-item">
+        <a href="/index.php/faqs/development-vuforia-engine" data-drupal-link-system-path="node/418">Development</a>
+              </li>
+                <li class="menu-item menu-item--expanded">
+        <a href="/index.php/faqs/account-management" class="collapse menu-closed" data-drupal-link-system-path="node/333">Account Management</a>
+                                <ul class="menu">
+                    <li class="menu-item">
+        <a href="/index.php/faqs/target-manager" data-drupal-link-system-path="node/398">Target Manager</a>
+              </li>
+                <li class="menu-item">
+        <a href="/index.php/faqs/license-manager-faq" data-drupal-link-system-path="node/332">Licenses</a>
+              </li>
+        </ul>
+  
+              </li>
+                <li class="menu-item menu-item--expanded">
+        <a href="/index.php/faqs/pricing-and-licensing-options" class="collapse menu-closed" data-drupal-link-system-path="node/331">Pricing and Licensing</a>
+                                <ul class="menu">
+                    <li class="menu-item">
+        <a href="/index.php/faqs/how-make-vuforia-license-changes" data-drupal-link-system-path="node/384">Making License Changes</a>
+              </li>
+        </ul>
+  
+              </li>
+                <li class="menu-item">
+        <a href="/index.php/faqs/data-security" data-drupal-link-system-path="node/419">Data Security</a>
+              </li>
+                <li class="menu-item">
+        <a href="/index.php/faqs/support" data-drupal-link-system-path="node/335">Support</a>
+              </li>
+        </ul>
+  
+              </li>
+                <li class="menu-item menu-item--expanded">
+        <span class="collapse menu-closed">Troubleshooting</span>
+                                <ul class="menu">
+                    <li class="menu-item">
+        <a href="/index.php/troubleshooting/troubleshooting-your-app" data-drupal-link-system-path="node/421">Troubleshooting your App</a>
+              </li>
+        </ul>
+  
+              </li>
+                <li class="menu-item menu-item--expanded">
+        <span class="collapse menu-closed">Vuforia 10 Migration</span>
+                                <ul class="menu">
+                    <li class="menu-item">
+        <a href="/index.php/project-migration/how-migrate-unity-project" data-drupal-link-system-path="node/329">Migrate a Unity Project</a>
+              </li>
+                <li class="menu-item">
+        <a href="/index.php/project-migration/how-migrate-native-project" data-drupal-link-system-path="node/330">Migrate a Native Project</a>
+              </li>
+        </ul>
+  
+              </li>
+                <li class="menu-item menu-item--expanded">
+        <span class="collapse menu-closed">Release Notes</span>
+                                <ul class="menu">
+                    <li class="menu-item">
+        <a href="/index.php/release-notes/vuforia-engine-release-notes" class="collapse menu-closed" data-drupal-link-system-path="node/337">Vuforia Engine</a>
+              </li>
+                <li class="menu-item">
+        <a href="/index.php/release-notes/vuforia-tools-and-test-app-release-notes" class="collapse menu-closed" data-drupal-link-system-path="node/338">Vuforia Tools and Apps</a>
+              </li>
+        </ul>
+  
+              </li>
+        </ul>
+  
+              </li>
+        </ul>
+  
+
+
+    </div>
+  </nav>
+
+<nav role="navigation" aria-labelledby="block-sidebarmenuunity-menu" id="block-sidebarmenuunity" class="block block-menu navigation menu--sidebar-unity-menu">
+            
+  <h2 class="visually-hidden" id="block-sidebarmenuunity-menu">Sidebar Unity Menu</h2>
+  
+
+        <div class="content">
+            <div class="menu-toggle-target menu-toggle-target-show" id="show-block-sidebarmenuunity"></div>
+      <div class="menu-toggle-target" id="hide-block-sidebarmenuunity"></div>
+      <a class="menu-toggle" href="#show-block-sidebarmenuunity">Show &mdash; Sidebar Unity Menu</a>
+      <a class="menu-toggle menu-toggle--hide" href="#hide-block-sidebarmenuunity">Hide &mdash; Sidebar Unity Menu</a>
+      
+              <ul class="clearfix menu">
+                    <li class="menu-item menu-item--expanded">
+        <span class="collapse menu">Vuforia Engine</span>
+                                <ul class="menu">
+                    <li class="menu-item menu-item--expanded">
+        <span class="collapse menu-closed"><i class="fa fa fa-book fa-lg" aria-hidden="true"></i> <span class="link-text">Getting Started</span></span>
+                                <ul class="menu">
+                    <li class="menu-item">
+        <a href="/index.php/getting-started/overview" data-drupal-link-system-path="node/201">Overview</a>
+              </li>
+                <li class="menu-item">
+        <a href="/index.php/getting-started/vuforia-features" data-drupal-link-system-path="node/203">Vuforia Features</a>
+              </li>
+                <li class="menu-item">
+        <a href="/index.php/getting-started/tools-overview" data-drupal-link-system-path="node/202">Vuforia Tools</a>
+              </li>
+                <li class="menu-item menu-item--expanded">
+        <a href="/index.php/getting-started/vuforia-engine-10-api" class="collapse menu-closed" data-drupal-link-system-path="node/211">Vuforia Engine API</a>
+                                <ul class="menu">
+                    <li class="menu-item">
+        <a href="/index.php/getting-started/vuforia-engine-api-unity" data-drupal-link-system-path="node/213">Engine Lifecycle</a>
+              </li>
+                <li class="menu-item menu-item--expanded">
+        <a href="/index.php/getting-started/observer-and-observations" class="collapse menu-closed" data-drupal-link-system-path="node/271">Observer and Observations</a>
+                                <ul class="menu">
+                    <li class="menu-item">
+        <a href="/index.php/getting-started/pose-status-and-status-info-unity" data-drupal-link-system-path="node/272">Pose Status and Status Info</a>
+              </li>
+        </ul>
+  
+              </li>
+        </ul>
+  
+              </li>
+                <li class="menu-item menu-item--expanded">
+        <span class="collapse menu-closed">Development Environments</span>
+                                <ul class="menu">
+                    <li class="menu-item">
+        <a href="/index.php/getting-started/getting-started-vuforia-engine-unity" data-drupal-link-system-path="node/204"><i class="fa fab fa-unity" aria-hidden="true"></i> <span class="link-text">Unity</span></a>
+              </li>
+                <li class="menu-item">
+        <a href="/index.php/getting-started/getting-started-vuforia-engine-and-magic-leap-2" class="magic-leap bg_img" data-drupal-link-system-path="node/397">Magic Leap OS</a>
+              </li>
+        </ul>
+  
+              </li>
+                <li class="menu-item menu-item--expanded">
+        <a href="/index.php/getting-started/register-vuforia-engine-developer" class="collapse menu-closed" data-drupal-link-system-path="node/208">Engine Developer Portal</a>
+                                <ul class="menu">
+                    <li class="menu-item">
+        <a href="/index.php/getting-started/vuforia-account-manager" data-drupal-link-system-path="node/407">Account Tab</a>
+              </li>
+                <li class="menu-item">
+        <a href="/index.php/getting-started/vuforia-license-manager" data-drupal-link-system-path="node/209">Licenses Tab</a>
+              </li>
+                <li class="menu-item">
+        <a href="/index.php/getting-started/vuforia-target-manager" data-drupal-link-system-path="node/210">Target Manager</a>
+              </li>
+                <li class="menu-item">
+        <a href="/index.php/getting-started/credentials-manager" data-drupal-link-system-path="node/406">Credentials Tab</a>
+              </li>
+        </ul>
+  
+              </li>
+        </ul>
+  
+              </li>
+                <li class="menu-item menu-item--expanded">
+        <span class="collapse menu-closed"><i class="fa fa fa-object-ungroup" aria-hidden="true"></i> <span class="link-text">Images &amp; Objects</span></span>
+                                <ul class="menu">
+                    <li class="menu-item menu-item--expanded">
+        <a href="/index.php/objects/image-targets" class="collapse menu-closed" data-drupal-link-system-path="node/216">Image Targets</a>
+                                <ul class="menu">
+                    <li class="menu-item">
+        <a href="/index.php/objects/instant-image-targets" data-drupal-link-system-path="node/224">Instant Image Targets</a>
+              </li>
+                <li class="menu-item menu-item--expanded">
+        <a href="/index.php/objects/best-practices-designing-and-developing-image-based-targets" class="collapse menu-closed" data-drupal-link-system-path="node/217">Best Practices</a>
+                                <ul class="menu">
+                    <li class="menu-item">
+        <a href="/index.php/objects/image-targets-optimization-techniques" data-drupal-link-system-path="node/218">Image Optimization</a>
+              </li>
+                <li class="menu-item">
+        <a href="/index.php/objects/physical-properties-image-based-targets" data-drupal-link-system-path="node/219">Image Properties</a>
+              </li>
+        </ul>
+  
+              </li>
+                <li class="menu-item menu-item--expanded">
+        <a href="/index.php/objects/device-databases" class="collapse menu-closed" data-drupal-link-system-path="node/362">Device Databases</a>
+                                <ul class="menu">
+                    <li class="menu-item">
+        <a href="/index.php/objects/comparison-device-and-cloud-databases" data-drupal-link-system-path="node/221">Device vs Cloud Databases</a>
+              </li>
+                <li class="menu-item">
+        <a href="/index.php/objects/modify-dataset-configuration-xml-file" data-drupal-link-system-path="node/222">Dataset Configuration XML File</a>
+              </li>
+        </ul>
+  
+              </li>
+                <li class="menu-item">
+        <a href="/index.php/objects/detect-and-track-multiple-targets-simultaneously" data-drupal-link-system-path="node/226">Simultaneous Tracking</a>
+              </li>
+        </ul>
+  
+              </li>
+                <li class="menu-item menu-item--expanded">
+        <a href="/index.php/objects/cylinder-targets" class="collapse menu-closed" data-drupal-link-system-path="node/266">Cylinder Targets</a>
+                                <ul class="menu">
+                    <li class="menu-item">
+        <a href="/index.php/cylinder-targets/recommendations-designing-cylinder-targets" data-drupal-link-system-path="node/267">Best Practices</a>
+              </li>
+                <li class="menu-item">
+        <a href="/index.php/cylinder-targets/how-calculate-dimensions-conical-and-cylindrical-cylinder-targets" data-drupal-link-system-path="node/268">Calculating Cylinders</a>
+              </li>
+        </ul>
+  
+              </li>
+                <li class="menu-item menu-item--expanded">
+        <a href="/index.php/objects/multi-targets" class="collapse menu-closed" data-drupal-link-system-path="node/364">Multi Targets</a>
+                                <ul class="menu">
+                    <li class="menu-item">
+        <a href="/index.php/objects/recommendations-designing-multi-targets" data-drupal-link-system-path="node/365">Best Practices</a>
+              </li>
+        </ul>
+  
+              </li>
+                <li class="menu-item menu-item--expanded">
+        <a href="/index.php/objects/model-targets" class="collapse menu-closed" data-drupal-link-system-path="node/231">Model Targets</a>
+                                <ul class="menu">
+                    <li class="menu-item menu-item--expanded">
+        <a href="/index.php/model-targets/how-create-model-target" class="collapse menu-closed" data-drupal-link-system-path="node/232">Creating Model Targets</a>
+                                <ul class="menu">
+                    <li class="menu-item">
+        <a href="/index.php/objects/printing-and-assembling-viking-lander" data-drupal-link-system-path="node/233">Viking Lander</a>
+              </li>
+        </ul>
+  
+              </li>
+                <li class="menu-item menu-item--expanded">
+        <a href="/index.php/objects/model-target-generator-user-guide" class="collapse menu-closed" data-drupal-link-system-path="node/366">Model Target Generator</a>
+                                <ul class="menu">
+                    <li class="menu-item">
+        <a href="/index.php/model-targets/cli" data-drupal-link-system-path="node/339">Model Target CLI</a>
+              </li>
+                <li class="menu-item">
+        <a href="/index.php/model-targets/automatic-coloring-model-targets" data-drupal-link-system-path="node/234">Automatic Coloring</a>
+              </li>
+        </ul>
+  
+              </li>
+                <li class="menu-item menu-item--expanded">
+        <a href="/index.php/model-targets/model-target-guide-view" class="collapse menu-closed" data-drupal-link-system-path="node/236">Guide View</a>
+                                <ul class="menu">
+                    <li class="menu-item">
+        <a href="/index.php/model-targets/advanced-views" data-drupal-link-system-path="node/396">Advanced Views</a>
+              </li>
+        </ul>
+  
+              </li>
+                <li class="menu-item">
+        <a href="/index.php/model-targets/advanced-model-target-databases" data-drupal-link-system-path="node/237">Advanced Model Target Databases</a>
+              </li>
+                <li class="menu-item">
+        <a href="/index.php/model-targets/optimizing-model-target-tracking" data-drupal-link-system-path="node/239">Optimizing Tracking</a>
+              </li>
+                <li class="menu-item menu-item--expanded">
+        <a href="/index.php/model-targets/introduction-model-targets-unity" class="collapse menu-closed" data-drupal-link-system-path="node/240">Unity Guide</a>
+                                <ul class="menu">
+                    <li class="menu-item">
+        <a href="/index.php/model-targets/model-target-runtime-scripting" data-drupal-link-system-path="node/423">Runtime Scripting</a>
+              </li>
+        </ul>
+  
+              </li>
+                <li class="menu-item">
+        <a href="/index.php/model-targets/model-target-test-app-user-guide" data-drupal-link-system-path="node/241">Test App</a>
+              </li>
+                <li class="menu-item menu-item--expanded">
+        <a href="/index.php/model-targets/model-targets-supported-objects-cad-model-best-practices" class="menu-closed collapse" data-drupal-link-system-path="node/242">Best Practices</a>
+                                <ul class="menu">
+                    <li class="menu-item">
+        <a href="/index.php/objects/best-practices-managing-scaling-model-targets" data-drupal-link-system-path="node/367">Scaling Model Targets</a>
+              </li>
+                <li class="menu-item">
+        <a href="/index.php/model-targets/3d-printing-cad-models-testing-ar-applications" data-drupal-link-system-path="node/420">3D Printing CAD Models</a>
+              </li>
+        </ul>
+  
+              </li>
+                <li class="menu-item menu-item--expanded">
+        <a href="/index.php/model-targets/how-create-model-targets-3d-scans" class="collapse menu-closed" data-drupal-link-system-path="node/243">Using 3D Scans</a>
+                                <ul class="menu">
+                    <li class="menu-item">
+        <a href="/index.php/using-3d-scans/model-targets-apples-object-capture" data-drupal-link-system-path="node/381">Apple Object Capture</a>
+              </li>
+                <li class="menu-item">
+        <a href="/index.php/model-targets/using-3d-scans/model-targets-metascan" data-drupal-link-system-path="node/382">Metascan</a>
+              </li>
+                <li class="menu-item">
+        <a href="/index.php/using-3d-scans/model-targets-polycam" data-drupal-link-system-path="node/383">Polycam</a>
+              </li>
+                <li class="menu-item">
+        <a href="/index.php/using-3d-scans/creating-model-target-photogrammetric-scans" data-drupal-link-system-path="node/244">RealityCapture</a>
+              </li>
+                <li class="menu-item">
+        <a href="/index.php/objects/comparison-object-tracking-methods" data-drupal-link-system-path="node/230">CAD and 3D Models</a>
+              </li>
+        </ul>
+  
+              </li>
+        </ul>
+  
+              </li>
+                <li class="menu-item menu-item--expanded">
+        <a href="/index.php/objects/cloud-recognition" class="collapse menu-closed" data-drupal-link-system-path="node/252">Cloud Recognition</a>
+                                <ul class="menu">
+                    <li class="menu-item">
+        <a href="/index.php/cloud-recognition/working-cloud-recognition" data-drupal-link-system-path="node/253">Working with Cloud Recognition</a>
+              </li>
+                <li class="menu-item">
+        <a href="/index.php/cloud-recognition/cloud-databases" data-drupal-link-system-path="node/254">Cloud Databases</a>
+              </li>
+                <li class="menu-item">
+        <a href="/index.php/cloud-recognition/counting-cloud-recognition-events" data-drupal-link-system-path="node/255">Counting Recognition Events</a>
+              </li>
+        </ul>
+  
+              </li>
+                <li class="menu-item menu-item--expanded">
+        <a href="/index.php/objects/barcode-scanner" class="collapse menu-closed" data-drupal-link-system-path="node/400">Barcode Scanner</a>
+                                <ul class="menu">
+                    <li class="menu-item">
+        <a href="/index.php/objects/barcode-scanner/barcode-scanner-in-unity" data-drupal-link-system-path="node/401">Unity Guide</a>
+              </li>
+                <li class="menu-item">
+        <a href="/index.php/objects/barcode-scanner/best-practices-for-barcode-scanning" data-drupal-link-system-path="node/402">Best Practices for Barcode Scanning</a>
+              </li>
+        </ul>
+  
+              </li>
+                <li class="menu-item menu-item--expanded">
+        <a href="/index.php/objects/vumarks" class="collapse menu-closed" data-drupal-link-system-path="node/259">VuMarks</a>
+                                <ul class="menu">
+                    <li class="menu-item menu-item--expanded">
+        <a href="/index.php/vumarks/vumark-design-guide" class="collapse menu-closed" data-drupal-link-system-path="node/260">Design Guide</a>
+                                <ul class="menu">
+                    <li class="menu-item">
+        <a href="/index.php/design-guide/designing-vumark-adobe-illustrator" data-drupal-link-system-path="node/261">Designing VuMarks in Adobe Illustrator</a>
+              </li>
+        </ul>
+  
+              </li>
+                <li class="menu-item">
+        <a href="/index.php/vumarks/vumark-databases" data-drupal-link-system-path="node/262">VuMark Databases</a>
+              </li>
+                <li class="menu-item">
+        <a href="/index.php/vumarks/vumarks-unity" data-drupal-link-system-path="node/263">Unity Guide</a>
+              </li>
+        </ul>
+  
+              </li>
+                <li class="menu-item">
+        <a href="/index.php/objects/sample-apps-target-pdfs" data-drupal-link-system-path="node/269">Sample Targets as Printable PDFs</a>
+              </li>
+        </ul>
+  
+              </li>
+                <li class="menu-item menu-item--expanded">
+        <span class="environments bg_img collapse menu-closed">Environments</span>
+                                <ul class="menu">
+                    <li class="menu-item menu-item--expanded">
+        <a href="/index.php/environments/area-targets" class="collapse menu-closed" data-drupal-link-system-path="node/277">Area Targets</a>
+                                <ul class="menu">
+                    <li class="menu-item menu-item--expanded">
+        <a href="/index.php/area-targets/best-practices-scanning-environment" class="collapse menu-closed" data-drupal-link-system-path="node/358">Scanning an Environment</a>
+                                <ul class="menu">
+                    <li class="menu-item">
+        <a href="/index.php/area-targets/leica-scans" data-drupal-link-system-path="node/352">Leica Scans</a>
+              </li>
+                <li class="menu-item">
+        <a href="/index.php/scanning-environment/area-targets-matterporttm-scans" data-drupal-link-system-path="node/279">Matterport™ Scans</a>
+              </li>
+                <li class="menu-item">
+        <a href="/index.php/area-targets/navvis-scans" data-drupal-link-system-path="node/351">NavVis Scans</a>
+              </li>
+        </ul>
+  
+              </li>
+                <li class="menu-item menu-item--expanded">
+        <a href="/index.php/area-targets/create-area-targets" class="collapse menu-closed" data-drupal-link-system-path="node/360">Creating Area Targets</a>
+                                <ul class="menu">
+                    <li class="menu-item">
+        <a href="/index.php/tools/creator-app" data-drupal-link-system-path="node/399">Creator App</a>
+              </li>
+                <li class="menu-item">
+        <a href="/index.php/creating-area-targets/area-target-generator-user-guide" data-drupal-link-system-path="node/282">Area Target Generator</a>
+              </li>
+        </ul>
+  
+              </li>
+                <li class="menu-item">
+        <a href="/index.php/develop-area-targets/area-targets-test-app-user-guide" data-drupal-link-system-path="node/284">Test App</a>
+              </li>
+                <li class="menu-item menu-item--expanded">
+        <a href="/index.php/develop-area-targets/area-targets-unity" class="Collapse menu-closed" data-drupal-link-system-path="node/285">Unity Guide</a>
+                                <ul class="menu">
+                    <li class="menu-item">
+        <a href="/index.php/develop-area-targets/multiple-area-targets" data-drupal-link-system-path="node/341">Multiple Area Targets</a>
+              </li>
+                <li class="menu-item">
+        <a href="/index.php/develop-area-targets/using-unitys-navmesh-navigation-area-targets" data-drupal-link-system-path="node/286">NavMesh Navigation</a>
+              </li>
+        </ul>
+  
+              </li>
+                <li class="menu-item menu-item--expanded">
+        <a href="/index.php/develop-area-targets/geolocation-external-prior-area-targets" class="menu-closed collapse" data-drupal-link-system-path="node/404">Geolocation as External Prior</a>
+                                <ul class="menu">
+                    <li class="menu-item">
+        <a href="/index.php/develop-area-targets/geolocation-external-prior-area-targets/georeferencing-area-targets" data-drupal-link-system-path="node/405">Georeferencing Area Targets</a>
+              </li>
+        </ul>
+  
+              </li>
+                <li class="menu-item menu-item--expanded">
+        <a href="/index.php/develop-area-targets/capture-api" class="Collapse menu-closed" data-drupal-link-system-path="node/377">Capture API</a>
+                                <ul class="menu">
+                    <li class="menu-item">
+        <a href="/index.php/area-targets/area-target-capture-api-unity" data-drupal-link-system-path="node/386">Capture API</a>
+              </li>
+        </ul>
+  
+              </li>
+        </ul>
+  
+              </li>
+                <li class="menu-item menu-item--expanded">
+        <a href="/index.php/environments/ground-plane" class="Collapse menu-closed" data-drupal-link-system-path="node/287">Ground Plane</a>
+                                <ul class="menu">
+                    <li class="menu-item">
+        <a href="/index.php/ground-plane/introduction-ground-plane-unity" data-drupal-link-system-path="node/288">Unity Guide</a>
+              </li>
+        </ul>
+  
+              </li>
+                <li class="menu-item menu-item--expanded">
+        <a href="/index.php/environments/device-tracking" class="collapse menu-closed" data-drupal-link-system-path="node/273">Device Tracking</a>
+                                <ul class="menu">
+                    <li class="menu-item menu-item--expanded">
+        <a href="/index.php/environments/vuforia-fusion" class="collapse menu-closed" data-drupal-link-system-path="node/301">Vuforia Fusion</a>
+                                <ul class="menu">
+                    <li class="menu-item">
+        <a href="/index.php/environments/best-practices-continued-ar-experiences" data-drupal-link-system-path="node/304">Continued AR Experiences</a>
+              </li>
+        </ul>
+  
+              </li>
+                <li class="menu-item">
+        <a href="/index.php/device-tracking/enable-device-tracking-unity" data-drupal-link-system-path="node/274">Unity Guide</a>
+              </li>
+                <li class="menu-item">
+        <a href="/index.php/device-tracking/spatial-frame-reference" data-drupal-link-system-path="node/276">Spatial Frame of Reference</a>
+              </li>
+        </ul>
+  
+              </li>
+        </ul>
+  
+              </li>
+                <li class="menu-item menu-item--expanded">
+        <span class="collapse menu-closed">Unity Extension</span>
+                                <ul class="menu">
+                    <li class="menu-item">
+        <a href="/index.php/getting-started/vuforia-engine-package-unity" data-drupal-link-system-path="node/215">Vuforia Package for Unity</a>
+              </li>
+                <li class="menu-item menu-item--expanded">
+        <a href="/index.php/unity-extension/vuforia-vfx-library" class="collapse menu-closed" data-drupal-link-system-path="node/378">Vuforia VFX Library</a>
+                                <ul class="menu">
+                    <li class="menu-item">
+        <a href="/index.php/unity-extension/vuforia-vfx-library-overview" data-drupal-link-system-path="node/379">VFX Overview</a>
+              </li>
+                <li class="menu-item">
+        <a href="/index.php/unity-extension/tinkering-vuforia-vfx-library" data-drupal-link-system-path="node/380">Tinkering with VFX</a>
+              </li>
+                <li class="menu-item">
+        <a href="/index.php/unity-extension/vuforia-vfx-minimap-area-targets" data-drupal-link-system-path="node/385">VFX Minimap</a>
+              </li>
+        </ul>
+  
+              </li>
+                <li class="menu-item menu-item--expanded">
+        <a href="/index.php/unity-extension/working-vuforia-engine-and-unity" class="collapse menu-closed" data-drupal-link-system-path="node/290">Working with Vuforia Engine</a>
+                                <ul class="menu">
+                    <li class="menu-item">
+        <a href="/index.php/unity-extension/create-and-load-targets-unity" data-drupal-link-system-path="node/388">Create and Load Targets</a>
+              </li>
+        </ul>
+  
+              </li>
+                <li class="menu-item">
+        <a href="/index.php/unity-extension/vuforia-play-mode-unity" data-drupal-link-system-path="node/291">Vuforia Play Mode in Unity</a>
+              </li>
+                <li class="menu-item menu-item--expanded">
+        <a href="/index.php/unity-extension/building-large-vuforia-engine-apps-unity" class="collapse menu-closed" data-drupal-link-system-path="node/292">Large Vuforia Apps in Unity</a>
+                                <ul class="menu">
+                    <li class="menu-item">
+        <a href="/index.php/unity-extension/load-vuforia-targets-sd-card-unity" data-drupal-link-system-path="node/293">Load from SD Card</a>
+              </li>
+                <li class="menu-item">
+        <a href="/index.php/unity-extension/package-augmentations-unity-assetbundles" data-drupal-link-system-path="node/294">AssetBundles</a>
+              </li>
+        </ul>
+  
+              </li>
+                <li class="menu-item">
+        <a href="/index.php/unity-extension/vuforia-engine-and-ar-foundation" data-drupal-link-system-path="node/295">AR Foundation</a>
+              </li>
+                <li class="menu-item">
+        <a href="/index.php/unity-extension/using-vuforia-engine-unity-library-uaal" data-drupal-link-system-path="node/296">Vuforia Engine with Unity as a Library</a>
+              </li>
+                <li class="menu-item">
+        <a href="/index.php/unity-extension/virtual-scene-scale-factor-unity" data-drupal-link-system-path="node/297">Virtual Scene Scale Factor</a>
+              </li>
+        </ul>
+  
+              </li>
+                <li class="menu-item menu-item--expanded">
+        <span class="collapse menu-closed">Web API</span>
+                                <ul class="menu">
+                    <li class="menu-item">
+        <a href="/index.php/web-api/vuforia-web-services-api" data-drupal-link-system-path="node/389">Vuforia Web Services</a>
+              </li>
+                <li class="menu-item">
+        <a href="/index.php/web-api/vuforia-web-api-authentication" data-drupal-link-system-path="node/390">Authentication</a>
+              </li>
+                <li class="menu-item">
+        <a href="/index.php/web-api/model-target-web-api" data-drupal-link-system-path="node/391">Model Targets</a>
+              </li>
+                <li class="menu-item">
+        <a href="/index.php/web-api/cloud-targets-web-services-api" data-drupal-link-system-path="node/392">Cloud Targets</a>
+              </li>
+                <li class="menu-item">
+        <a href="/index.php/web-api/vuforia-query-web-api" data-drupal-link-system-path="node/393">Cloud Query</a>
+              </li>
+                <li class="menu-item">
+        <a href="/index.php/web-api/vumark-generation-web-api" data-drupal-link-system-path="node/394">VuMarks</a>
+              </li>
+                <li class="menu-item">
+        <a href="/index.php/sites/default/files/references/mt-web-api-openapi.html" target="_blank">Web API Reference Library</a>
+              </li>
+        </ul>
+  
+              </li>
+                <li class="menu-item menu-item--expanded">
+        <span class="collapse menu-closed">Platform Support</span>
+                                <ul class="menu">
+                    <li class="menu-item">
+        <a href="/index.php/platform-support/supported-versions" data-drupal-link-system-path="node/368">Supported Versions</a>
+              </li>
+                <li class="menu-item">
+        <a href="/index.php/platform-support/recommended-devices" data-drupal-link-system-path="node/300">Recommended Devices</a>
+              </li>
+                <li class="menu-item menu-item--expanded">
+        <a href="/index.php/platform-support/camera" class="collapse menu-closed" data-drupal-link-system-path="node/370">Camera</a>
+                                <ul class="menu">
+                    <li class="menu-item">
+        <a href="/index.php/platform-support/working-camera-unity" data-drupal-link-system-path="node/315">Camera in Unity</a>
+              </li>
+                <li class="menu-item">
+        <a href="/index.php/platform-support/device-performance-optimization" data-drupal-link-system-path="node/327">Performance Optimization</a>
+              </li>
+                <li class="menu-item menu-item--expanded">
+        <a href="/index.php/platform-support/driver-framework" class="collapse menu-closed" data-drupal-link-system-path="node/307"><i class="fa fa fa-cubes" aria-hidden="true"></i> <span class="link-text">Driver Framework</span></a>
+                                <ul class="menu">
+                    <li class="menu-item menu-item--expanded">
+        <a href="/index.php/platform-support/creating-custom-driver" class="collapse menu-closed" data-drupal-link-system-path="node/311">Simple Driver</a>
+                                <ul class="menu">
+                    <li class="menu-item">
+        <a href="/index.php/platform-support/external-camera-calibration" data-drupal-link-system-path="node/314">Camera Calibration</a>
+              </li>
+        </ul>
+  
+              </li>
+                <li class="menu-item">
+        <a href="/index.php/platform-support/vuforia-support-custom-devices-using-vuforia-driver" data-drupal-link-system-path="node/312">Advanced Driver</a>
+              </li>
+                <li class="menu-item">
+        <a href="/index.php/platform-support/building-and-using-file-driver-sample" data-drupal-link-system-path="node/308">File Driver Sample</a>
+              </li>
+        </ul>
+  
+              </li>
+        </ul>
+  
+              </li>
+                <li class="menu-item menu-item--expanded">
+        <a href="/index.php/platform-support/platform-frameworks" class="collapse menu-closed" data-drupal-link-system-path="node/371">Platform Frameworks</a>
+                                <ul class="menu">
+                    <li class="menu-item">
+        <a href="/index.php/platform-support/using-arcore-vuforia-engine" data-drupal-link-system-path="node/369">ARCore in Unity</a>
+              </li>
+        </ul>
+  
+              </li>
+                <li class="menu-item menu-item--expanded">
+        <a href="/index.php/platform-support/recording-and-playback" class="collapse menu-closed" data-drupal-link-system-path="node/305">Recording and Playback</a>
+                                <ul class="menu">
+                    <li class="menu-item">
+        <a href="/index.php/platform-support/session-recorder-api-overview" data-drupal-link-system-path="node/306">Session Recorder API Overview</a>
+              </li>
+        </ul>
+  
+              </li>
+                <li class="menu-item menu-item--expanded">
+        <a href="/index.php/platform-support/vuforia-engine-digital-eyewear" class="collapse menu-closed" data-drupal-link-system-path="node/319">Digital Eyewear</a>
+                                <ul class="menu">
+                    <li class="menu-item">
+        <a href="/index.php/platform-support/best-practices-optical-see-through-digital-eyewear-experiences" data-drupal-link-system-path="node/320">Best Practices for Eyewear Experiences</a>
+              </li>
+                <li class="menu-item menu-item--expanded">
+        <a href="/index.php/platform-support/developing-vuforia-engine-apps-hololens" class="collapse menu-closed" data-drupal-link-system-path="node/321">HoloLens Apps</a>
+                                <ul class="menu">
+                    <li class="menu-item">
+        <a href="/index.php/platform-support/capturing-and-viewing-event-logs-etw" data-drupal-link-system-path="node/323">Event Logs with ETW</a>
+              </li>
+        </ul>
+  
+              </li>
+                <li class="menu-item">
+        <a href="/index.php/platform-support/vuforia-digital-eyewear-sample" data-drupal-link-system-path="node/422">Vuforia Digital Eyewear Sample</a>
+              </li>
+                <li class="menu-item menu-item--expanded">
+        <a href="/index.php/platform-support/developing-vuforia-engine-apps-magic-leap" data-drupal-link-system-path="node/324">Magic Leap Apps</a>
+              </li>
+        </ul>
+  
+              </li>
+        </ul>
+  
+              </li>
+                <li class="menu-item menu-item--expanded">
+        <span class="collapse menu-closed">Data Security</span>
+                                <ul class="menu">
+                    <li class="menu-item">
+        <a href="/index.php/faqs/vuforia-engine-data-security" data-drupal-link-system-path="node/408">Overview</a>
+              </li>
+                <li class="menu-item">
+        <a href="/index.php/objects/model-target-generator-data-processing" data-drupal-link-system-path="node/235">Model Target Data</a>
+              </li>
+                <li class="menu-item">
+        <a href="/index.php/area-targets/area-target-generation-data-processing" data-drupal-link-system-path="node/409">Area Target Data</a>
+              </li>
+        </ul>
+  
+              </li>
+                <li class="menu-item menu-item--expanded">
+        <span class="collapse menu-closed"><i class="fa fa fa-code" aria-hidden="true"></i> <span class="link-text">API</span></span>
+                                <ul class="menu">
+                    <li class="menu-item">
+        <a href="/index.php/sites/default/files/references/unity/index.html" target="_blank"><i class="fa fab fa-unity" aria-hidden="true"></i> <span class="link-text">Unity API</span></a>
+              </li>
+        </ul>
+  
+              </li>
+                <li class="menu-item menu-item--expanded">
+        <span class="collapse menu-closed"><i class="fa fa fa-question" aria-hidden="true"></i> <span class="link-text">FAQ</span></span>
+                                <ul class="menu">
+                    <li class="menu-item">
+        <a href="/index.php/faqs/frequently-asked-questions" data-drupal-link-system-path="node/343">Overview</a>
+              </li>
+                <li class="menu-item">
+        <a href="/index.php/faqs/usage" data-drupal-link-system-path="node/336">Images &amp; Objects Tracking</a>
+              </li>
+                <li class="menu-item">
+        <a href="/index.php/faqs/environment/tracking" data-drupal-link-system-path="node/334">Environment Tracking</a>
+              </li>
+                <li class="menu-item">
+        <a href="/index.php/faqs/development-vuforia-engine" data-drupal-link-system-path="node/418">Development</a>
+              </li>
+                <li class="menu-item menu-item--expanded">
+        <a href="/index.php/faqs/account-management" class="collapse menu-closed" data-drupal-link-system-path="node/333">Account Management</a>
+                                <ul class="menu">
+                    <li class="menu-item">
+        <a href="/index.php/faqs/target-manager" data-drupal-link-system-path="node/398">Target Manager</a>
+              </li>
+                <li class="menu-item">
+        <a href="/index.php/faqs/license-manager-faq" data-drupal-link-system-path="node/332">Licenses</a>
+              </li>
+        </ul>
+  
+              </li>
+                <li class="menu-item menu-item--expanded">
+        <a href="/index.php/faqs/pricing-and-licensing-options" class="collapse menu-closed" data-drupal-link-system-path="node/331">Pricing and Licensing</a>
+                                <ul class="menu">
+                    <li class="menu-item">
+        <a href="/index.php/faqs/how-make-vuforia-license-changes" data-drupal-link-system-path="node/384">Making License Changes</a>
+              </li>
+        </ul>
+  
+              </li>
+                <li class="menu-item">
+        <a href="/index.php/faqs/data-security" data-drupal-link-system-path="node/419">Data Security</a>
+              </li>
+                <li class="menu-item">
+        <a href="/index.php/faqs/support" data-drupal-link-system-path="node/335">Support</a>
+              </li>
+        </ul>
+  
+              </li>
+                <li class="menu-item menu-item--expanded">
+        <span class="collapse menu-closed">Troubleshooting</span>
+                                <ul class="menu">
+                    <li class="menu-item">
+        <a href="/index.php/troubleshooting/troubleshooting-your-app" data-drupal-link-system-path="node/421">Troubleshooting your App</a>
+              </li>
+        </ul>
+  
+              </li>
+                <li class="menu-item menu-item--expanded">
+        <span class="collapse menu-closed">Vuforia 10 Migration</span>
+                                <ul class="menu">
+                    <li class="menu-item">
+        <a href="/index.php/project-migration/how-migrate-unity-project" data-drupal-link-system-path="node/329">Migrate a Unity Project</a>
+              </li>
+        </ul>
+  
+              </li>
+                <li class="menu-item menu-item--expanded">
+        <span class="collapse menu-closed">Release Notes</span>
+                                <ul class="menu">
+                    <li class="menu-item">
+        <a href="/index.php/release-notes/vuforia-engine-release-notes" data-drupal-link-system-path="node/337">Vuforia Engine</a>
+              </li>
+                <li class="menu-item">
+        <a href="/index.php/release-notes/vuforia-tools-and-test-app-release-notes" data-drupal-link-system-path="node/338">Vuforia Tools and Apps</a>
+              </li>
+        </ul>
+  
+              </li>
+        </ul>
+  
+              </li>
+        </ul>
+  
+
+
+    </div>
+  </nav>
+
+<nav role="navigation" aria-labelledby="block-sidebarmenunative-menu" id="block-sidebarmenunative" class="block block-menu navigation menu--native-c-api-menu">
+            
+  <h2 class="visually-hidden" id="block-sidebarmenunative-menu">Sidebar Native C API Menu</h2>
+  
+
+        <div class="content">
+            <div class="menu-toggle-target menu-toggle-target-show" id="show-block-sidebarmenunative"></div>
+      <div class="menu-toggle-target" id="hide-block-sidebarmenunative"></div>
+      <a class="menu-toggle" href="#show-block-sidebarmenunative">Show &mdash; Sidebar Native C API Menu</a>
+      <a class="menu-toggle menu-toggle--hide" href="#hide-block-sidebarmenunative">Hide &mdash; Sidebar Native C API Menu</a>
+      
+              <ul class="clearfix menu">
+                    <li class="menu-item menu-item--expanded">
+        <span class="collapse menu">Vuforia Engine</span>
+                                <ul class="menu">
+                    <li class="menu-item menu-item--expanded">
+        <span class="collapse menu-closed"><i class="fa fa fa-book fa-lg" aria-hidden="true"></i> <span class="link-text">Getting Started</span></span>
+                                <ul class="menu">
+                    <li class="menu-item">
+        <a href="/index.php/getting-started/overview" data-drupal-link-system-path="node/201">Overview</a>
+              </li>
+                <li class="menu-item">
+        <a href="/index.php/getting-started/vuforia-features" data-drupal-link-system-path="node/203">Vuforia Features</a>
+              </li>
+                <li class="menu-item">
+        <a href="/index.php/getting-started/tools-overview" data-drupal-link-system-path="node/202">Vuforia Tools</a>
+              </li>
+                <li class="menu-item menu-item--expanded">
+        <a href="/index.php/getting-started/vuforia-engine-10-api" class="collapse menu-closed" data-drupal-link-system-path="node/211">Vuforia Engine API</a>
+                                <ul class="menu">
+                    <li class="menu-item">
+        <a href="/index.php/getting-started/vuforia-engine-lifecycle" data-drupal-link-system-path="node/212">Engine Lifecycle</a>
+              </li>
+                <li class="menu-item menu-item--expanded">
+        <a href="/index.php/getting-started/observer-and-observations" class="collapse menu-closed" data-drupal-link-system-path="node/271">Observer and Observations</a>
+                                <ul class="menu">
+                    <li class="menu-item">
+        <a href="/index.php/getting-started/pose-status-and-status-info-native" data-drupal-link-system-path="node/410">Pose Status and Status Info</a>
+              </li>
+        </ul>
+  
+              </li>
+        </ul>
+  
+              </li>
+                <li class="menu-item menu-item--expanded">
+        <span class="collapse menu-closed">Development Environments</span>
+                                <ul class="menu">
+                    <li class="menu-item">
+        <a href="/index.php/getting-started/getting-started-vuforia-engine-android-development" class="android bg_img" data-drupal-link-system-path="node/207">Android</a>
+              </li>
+                <li class="menu-item">
+        <a href="/index.php/getting-started/getting-started-vuforia-engine-ios-development" data-drupal-link-system-path="node/205"><i class="fa fa fa-apple fa-lg" aria-hidden="true"></i> <span class="link-text">iOS</span></a>
+              </li>
+                <li class="menu-item">
+        <a href="/index.php/getting-started/getting-started-vuforia-engine-and-magic-leap-2" class="magic-leap bg_img" data-drupal-link-system-path="node/397">Magic Leap OS</a>
+              </li>
+                <li class="menu-item">
+        <a href="/index.php/getting-started/getting-started-vuforia-engine-windows-10-development" data-drupal-link-system-path="node/206"><i class="fa fa fa-windows fa-lg" aria-hidden="true"></i> <span class="link-text">UWP</span></a>
+              </li>
+        </ul>
+  
+              </li>
+                <li class="menu-item menu-item--expanded">
+        <a href="/index.php/getting-started/register-vuforia-engine-developer" class="collapse menu-closed" data-drupal-link-system-path="node/208">Engine Developer Portal</a>
+                                <ul class="menu">
+                    <li class="menu-item">
+        <a href="/index.php/getting-started/vuforia-account-manager" data-drupal-link-system-path="node/407">Account Tab</a>
+              </li>
+                <li class="menu-item">
+        <a href="/index.php/getting-started/vuforia-license-manager" data-drupal-link-system-path="node/209">Licenses Tab</a>
+              </li>
+                <li class="menu-item">
+        <a href="/index.php/getting-started/vuforia-target-manager" data-drupal-link-system-path="node/210">Target Manager</a>
+              </li>
+                <li class="menu-item">
+        <a href="/index.php/getting-started/credentials-manager" data-drupal-link-system-path="node/406">Credentials Tab</a>
+              </li>
+        </ul>
+  
+              </li>
+        </ul>
+  
+              </li>
+                <li class="menu-item menu-item--expanded">
+        <span class="collapse menu-closed"><i class="fa fa fa-object-ungroup" aria-hidden="true"></i> <span class="link-text">Images &amp; Objects</span></span>
+                                <ul class="menu">
+                    <li class="menu-item menu-item--expanded">
+        <a href="/index.php/objects/image-targets" class="collapse menu-closed" data-drupal-link-system-path="node/216">Image Targets</a>
+                                <ul class="menu">
+                    <li class="menu-item menu-item--expanded">
+        <a href="/index.php/objects/best-practices-designing-and-developing-image-based-targets" class="collapse menu-closed" data-drupal-link-system-path="node/217">Best Practices</a>
+                                <ul class="menu">
+                    <li class="menu-item">
+        <a href="/index.php/objects/image-targets-optimization-techniques" data-drupal-link-system-path="node/218">Image Optimization</a>
+              </li>
+                <li class="menu-item">
+        <a href="/index.php/objects/physical-properties-image-based-targets" data-drupal-link-system-path="node/219">Image Properties</a>
+              </li>
+        </ul>
+  
+              </li>
+                <li class="menu-item menu-item--expanded">
+        <a href="/index.php/objects/device-databases" class="collapse menu-closed" data-drupal-link-system-path="node/362">Device Databases</a>
+                                <ul class="menu">
+                    <li class="menu-item">
+        <a href="/index.php/objects/comparison-device-and-cloud-databases" data-drupal-link-system-path="node/221">Device vs Cloud Databases</a>
+              </li>
+                <li class="menu-item">
+        <a href="/index.php/objects/modify-dataset-configuration-xml-file" data-drupal-link-system-path="node/222">Dataset Configuration XML File</a>
+              </li>
+        </ul>
+  
+              </li>
+                <li class="menu-item">
+        <a href="/index.php/objects/detect-and-track-multiple-targets-simultaneously" data-drupal-link-system-path="node/226">Simultaneous Tracking</a>
+              </li>
+                <li class="menu-item menu-item--expanded">
+        <a href="/index.php/objects/image-targets-api-overview" class="collapse menu-closed" data-drupal-link-system-path="node/225">Image Targets API Overview</a>
+                                <ul class="menu">
+                    <li class="menu-item">
+        <a href="/index.php/objects/create-and-modify-targets-native" data-drupal-link-system-path="node/357">Modify Targets at Runtime</a>
+              </li>
+        </ul>
+  
+              </li>
+                <li class="menu-item">
+        <a href="/index.php/objects/native-vuforia-engine-sample" data-drupal-link-system-path="node/363">Native Samples</a>
+              </li>
+        </ul>
+  
+              </li>
+                <li class="menu-item menu-item--expanded">
+        <a href="/index.php/objects/cylinder-targets" class="collapse menu-closed" data-drupal-link-system-path="node/266">Cylinder Targets</a>
+                                <ul class="menu">
+                    <li class="menu-item">
+        <a href="/index.php/cylinder-targets/recommendations-designing-cylinder-targets" data-drupal-link-system-path="node/267">Best Practices</a>
+              </li>
+                <li class="menu-item">
+        <a href="/index.php/cylinder-targets/how-calculate-dimensions-conical-and-cylindrical-cylinder-targets" data-drupal-link-system-path="node/268">Calculating Cylinders</a>
+              </li>
+                <li class="menu-item">
+        <a href="/index.php/cylinder-targets/cylinder-targets-api-overview" data-drupal-link-system-path="node/270">Cylinder Targets API Overview</a>
+              </li>
+        </ul>
+  
+              </li>
+                <li class="menu-item menu-item--expanded">
+        <a href="/index.php/objects/multi-targets" class="collapse menu-closed" data-drupal-link-system-path="node/364">Multi Targets</a>
+                                <ul class="menu">
+                    <li class="menu-item">
+        <a href="/index.php/objects/recommendations-designing-multi-targets" data-drupal-link-system-path="node/365">Best Practices</a>
+              </li>
+                <li class="menu-item">
+        <a href="/index.php/objects/multi-targets-api-overview" data-drupal-link-system-path="node/229">Multi Targets API Overview</a>
+              </li>
+        </ul>
+  
+              </li>
+                <li class="menu-item menu-item--expanded">
+        <a href="/index.php/objects/model-targets" class="menu-closed collapse" data-drupal-link-system-path="node/231">Model Targets</a>
+                                <ul class="menu">
+                    <li class="menu-item menu-item--expanded">
+        <a href="/index.php/model-targets/how-create-model-target" class="collapse menu-closed" data-drupal-link-system-path="node/232">Creating Model Targets</a>
+                                <ul class="menu">
+                    <li class="menu-item">
+        <a href="/index.php/objects/printing-and-assembling-viking-lander" data-drupal-link-system-path="node/233">Viking Lander</a>
+              </li>
+        </ul>
+  
+              </li>
+                <li class="menu-item menu-item--expanded">
+        <a href="/index.php/objects/model-target-generator-user-guide" class="menu-closed collapse" data-drupal-link-system-path="node/366">Model Target Generator</a>
+                                <ul class="menu">
+                    <li class="menu-item">
+        <a href="/index.php/model-targets/cli" data-drupal-link-system-path="node/339">Model Target CLI</a>
+              </li>
+                <li class="menu-item">
+        <a href="/index.php/model-targets/automatic-coloring-model-targets" data-drupal-link-system-path="node/234">Automatic Coloring</a>
+              </li>
+        </ul>
+  
+              </li>
+                <li class="menu-item menu-item--expanded">
+        <a href="/index.php/model-targets/model-target-guide-view" class="menu-closed collapse" data-drupal-link-system-path="node/236">Guide View</a>
+                                <ul class="menu">
+                    <li class="menu-item">
+        <a href="/index.php/model-targets/advanced-views" data-drupal-link-system-path="node/396">Advanced Views</a>
+              </li>
+        </ul>
+  
+              </li>
+                <li class="menu-item">
+        <a href="/index.php/model-targets/advanced-model-target-databases" data-drupal-link-system-path="node/237">Advanced Model Target Databases</a>
+              </li>
+                <li class="menu-item">
+        <a href="/index.php/model-targets/optimizing-model-target-tracking" data-drupal-link-system-path="node/239">Optimizing Tracking</a>
+              </li>
+                <li class="menu-item">
+        <a href="/index.php/model-targets/model-target-test-app-user-guide" data-drupal-link-system-path="node/241">Test App</a>
+              </li>
+                <li class="menu-item menu-item--expanded">
+        <a href="/index.php/model-targets/model-targets-supported-objects-cad-model-best-practices" class="collapse menu-closed" data-drupal-link-system-path="node/242">Best Practices</a>
+                                <ul class="menu">
+                    <li class="menu-item">
+        <a href="/index.php/model-targets/3d-printing-cad-models-testing-ar-applications" data-drupal-link-system-path="node/420">3D Printing CAD Models</a>
+              </li>
+        </ul>
+  
+              </li>
+                <li class="menu-item menu-item--expanded">
+        <a href="/index.php/model-targets/how-create-model-targets-3d-scans" class="collapse menu-closed" data-drupal-link-system-path="node/243">Using 3D Scans</a>
+                                <ul class="menu">
+                    <li class="menu-item">
+        <a href="/index.php/using-3d-scans/model-targets-apples-object-capture" data-drupal-link-system-path="node/381">Apple Object Capture</a>
+              </li>
+                <li class="menu-item">
+        <a href="/index.php/model-targets/using-3d-scans/model-targets-metascan" data-drupal-link-system-path="node/382">Metascan</a>
+              </li>
+                <li class="menu-item">
+        <a href="/index.php/using-3d-scans/model-targets-polycam" data-drupal-link-system-path="node/383">Polycam</a>
+              </li>
+                <li class="menu-item">
+        <a href="/index.php/using-3d-scans/creating-model-target-photogrammetric-scans" data-drupal-link-system-path="node/244">RealityCapture</a>
+              </li>
+                <li class="menu-item">
+        <a href="/index.php/objects/comparison-object-tracking-methods" data-drupal-link-system-path="node/230">CAD and 3D Models</a>
+              </li>
+        </ul>
+  
+              </li>
+                <li class="menu-item">
+        <a href="/index.php/objects/model-targets-api-overview" data-drupal-link-system-path="node/245">Model Targets API Overview</a>
+              </li>
+        </ul>
+  
+              </li>
+                <li class="menu-item menu-item--expanded">
+        <a href="/index.php/objects/cloud-recognition" class="collapse menu-closed" data-drupal-link-system-path="node/252">Cloud Recognition</a>
+                                <ul class="menu">
+                    <li class="menu-item">
+        <a href="/index.php/cloud-recognition/cloud-recognition-api-overview" data-drupal-link-system-path="node/411">Cloud Recognition API Overview</a>
+              </li>
+                <li class="menu-item">
+        <a href="/index.php/cloud-recognition/cloud-databases" data-drupal-link-system-path="node/254">Cloud Databases</a>
+              </li>
+                <li class="menu-item">
+        <a href="/index.php/cloud-recognition/counting-cloud-recognition-events" data-drupal-link-system-path="node/255">Counting Recognition Events</a>
+              </li>
+        </ul>
+  
+              </li>
+                <li class="menu-item menu-item--expanded">
+        <a href="/index.php/objects/barcode-scanner" class="collapse menu-closed" data-drupal-link-system-path="node/400">Barcode Scanner</a>
+                                <ul class="menu">
+                    <li class="menu-item">
+        <a href="/index.php/objects/barcode-scanner/best-practices-for-barcode-scanning" data-drupal-link-system-path="node/402">Best Practices for Barcode Scanning</a>
+              </li>
+                <li class="menu-item">
+        <a href="/index.php/objects/barcode-scanner/barcode-scanner-API-overview" data-drupal-link-system-path="node/403">Barcode Scanner API Overview</a>
+              </li>
+        </ul>
+  
+              </li>
+                <li class="menu-item menu-item--expanded">
+        <a href="/index.php/objects/vumarks" class="collapse menu-closed" data-drupal-link-system-path="node/259">VuMarks</a>
+                                <ul class="menu">
+                    <li class="menu-item menu-item--expanded">
+        <a href="/index.php/vumarks/vumark-design-guide" class="collapse menu-closed" data-drupal-link-system-path="node/260">Design Guide</a>
+                                <ul class="menu">
+                    <li class="menu-item">
+        <a href="/index.php/design-guide/designing-vumark-adobe-illustrator" data-drupal-link-system-path="node/261">Designing VuMarks in Adobe Illustrator</a>
+              </li>
+        </ul>
+  
+              </li>
+                <li class="menu-item">
+        <a href="/index.php/vumarks/vumark-databases" data-drupal-link-system-path="node/262">VuMark Databases</a>
+              </li>
+                <li class="menu-item">
+        <a href="/index.php/vumarks/api-overview" data-drupal-link-system-path="node/264">VuMarks API Overview</a>
+              </li>
+        </ul>
+  
+              </li>
+                <li class="menu-item">
+        <a href="/index.php/objects/sample-apps-target-pdfs" data-drupal-link-system-path="node/269">Sample Targets as Printable PDFs</a>
+              </li>
+        </ul>
+  
+              </li>
+                <li class="menu-item menu-item--expanded">
+        <span class="environments bg_img collapse menu-closed">Environments</span>
+                                <ul class="menu">
+                    <li class="menu-item menu-item--expanded">
+        <a href="/index.php/environments/area-targets" class="collapse menu-closed" data-drupal-link-system-path="node/277">Area Targets</a>
+                                <ul class="menu">
+                    <li class="menu-item menu-item--expanded">
+        <a href="/index.php/area-targets/best-practices-scanning-environment" class="collapse menu-closed" data-drupal-link-system-path="node/358">Scanning an Environment</a>
+                                <ul class="menu">
+                    <li class="menu-item">
+        <a href="/index.php/area-targets/leica-scans" data-drupal-link-system-path="node/352">Leica Scans</a>
+              </li>
+                <li class="menu-item">
+        <a href="/index.php/scanning-environment/area-targets-matterporttm-scans" data-drupal-link-system-path="node/279">Matterport™ Scans</a>
+              </li>
+                <li class="menu-item">
+        <a href="/index.php/area-targets/navvis-scans" data-drupal-link-system-path="node/351">NavVis Scans</a>
+              </li>
+        </ul>
+  
+              </li>
+                <li class="menu-item menu-item--expanded">
+        <a href="/index.php/area-targets/create-area-targets" class="collapse menu-closed" data-drupal-link-system-path="node/360">Creating Area Targets</a>
+                                <ul class="menu">
+                    <li class="menu-item">
+        <a href="/index.php/tools/creator-app" data-drupal-link-system-path="node/399">Creator App</a>
+              </li>
+                <li class="menu-item">
+        <a href="/index.php/creating-area-targets/area-target-generator-user-guide" data-drupal-link-system-path="node/282">Area Target Generator</a>
+              </li>
+        </ul>
+  
+              </li>
+                <li class="menu-item menu-item--expanded">
+        <a href="/index.php/develop-area-targets/area-target-api-overview" class="collapse menu-closed" data-drupal-link-system-path="node/283">Develop with Area Targets</a>
+                                <ul class="menu">
+                    <li class="menu-item">
+        <a href="/index.php/develop-area-targets/area-targets-test-app-user-guide" data-drupal-link-system-path="node/284">Test App</a>
+              </li>
+        </ul>
+  
+              </li>
+                <li class="menu-item menu-item--expanded">
+        <a href="/index.php/develop-area-targets/capture-api" class="collapse menu-closed" data-drupal-link-system-path="node/377">Capture API</a>
+                                <ul class="menu">
+                    <li class="menu-item">
+        <a href="/index.php/area-targets/area-target-capture-api-native" data-drupal-link-system-path="node/387">Capture API Overview</a>
+              </li>
+        </ul>
+  
+              </li>
+        </ul>
+  
+              </li>
+                <li class="menu-item menu-item--expanded">
+        <a href="/index.php/environments/ground-plane" class="collapse menu-closed" data-drupal-link-system-path="node/287">Ground Plane</a>
+                                <ul class="menu">
+                    <li class="menu-item">
+        <a href="/index.php/environments/ground-plane-api-overview" data-drupal-link-system-path="node/289">Ground Plane API Overview</a>
+              </li>
+        </ul>
+  
+              </li>
+                <li class="menu-item menu-item--expanded">
+        <a href="/index.php/environments/device-tracking" class="collapse menu-closed" data-drupal-link-system-path="node/273">Device Tracking</a>
+                                <ul class="menu">
+                    <li class="menu-item menu-item--expanded">
+        <a href="/index.php/environments/vuforia-fusion" class="collapse menu-closed" data-drupal-link-system-path="node/301">Vuforia Fusion</a>
+                                <ul class="menu">
+                    <li class="menu-item">
+        <a href="/index.php/environments/best-practices-continued-ar-experiences" data-drupal-link-system-path="node/304">Continued AR Experiences</a>
+              </li>
+        </ul>
+  
+              </li>
+                <li class="menu-item">
+        <a href="/index.php/device-tracking/device-tracking-api-overview" data-drupal-link-system-path="node/275">Device Tracking API Overview</a>
+              </li>
+                <li class="menu-item">
+        <a href="/index.php/device-tracking/spatial-frame-reference-native" data-drupal-link-system-path="node/416">Spatial Frame of Reference</a>
+              </li>
+        </ul>
+  
+              </li>
+        </ul>
+  
+              </li>
+                <li class="menu-item menu-item--expanded">
+        <span class="collapse menu-closed">Web API</span>
+                                <ul class="menu">
+                    <li class="menu-item">
+        <a href="/index.php/web-api/vuforia-web-services-api" data-drupal-link-system-path="node/389">Vuforia Web Services</a>
+              </li>
+                <li class="menu-item">
+        <a href="/index.php/web-api/vuforia-web-api-authentication" data-drupal-link-system-path="node/390">Authentication</a>
+              </li>
+                <li class="menu-item">
+        <a href="/index.php/web-api/model-target-web-api" data-drupal-link-system-path="node/391">Model Targets</a>
+              </li>
+                <li class="menu-item">
+        <a href="/index.php/web-api/cloud-targets-web-services-api" data-drupal-link-system-path="node/392">Cloud Targets</a>
+              </li>
+                <li class="menu-item">
+        <a href="/index.php/web-api/vuforia-query-web-api" data-drupal-link-system-path="node/393">Cloud Query</a>
+              </li>
+                <li class="menu-item">
+        <a href="/index.php/web-api/vumark-generation-web-api" data-drupal-link-system-path="node/394">VuMarks</a>
+              </li>
+                <li class="menu-item">
+        <a href="/index.php/sites/default/files/references/mt-web-api-openapi.html" target="_blank">Web API Reference Library</a>
+              </li>
+        </ul>
+  
+              </li>
+                <li class="menu-item menu-item--expanded">
+        <span class="collapse menu-closed">Platform Support</span>
+                                <ul class="menu">
+                    <li class="menu-item">
+        <a href="/index.php/platform-support/supported-versions" data-drupal-link-system-path="node/368">Supported Versions</a>
+              </li>
+                <li class="menu-item">
+        <a href="/index.php/platform-support/recommended-devices" data-drupal-link-system-path="node/300">Recommended Devices</a>
+              </li>
+                <li class="menu-item menu-item--expanded">
+        <a href="/index.php/platform-support/camera" class="collapse menu-closed" data-drupal-link-system-path="node/370">Camera</a>
+                                <ul class="menu">
+                    <li class="menu-item menu-item--expanded">
+        <a href="/index.php/platform-support/working-camera-native" class="collapse menu-closed" data-drupal-link-system-path="node/316">Working with the Camera</a>
+                                <ul class="menu">
+                    <li class="menu-item">
+        <a href="/index.php/platform-support/vuforia-engine-camera-api-overview" data-drupal-link-system-path="node/317">Camera API Overview</a>
+              </li>
+        </ul>
+  
+              </li>
+                <li class="menu-item">
+        <a href="/index.php/platform-support/device-performance-optimization" data-drupal-link-system-path="node/327">Performance Optimization</a>
+              </li>
+                <li class="menu-item menu-item--expanded">
+        <a href="/index.php/platform-support/driver-framework" class="collapse menu-closed" data-drupal-link-system-path="node/307"><i class="fa fa fa-cubes" aria-hidden="true"></i> <span class="link-text">Driver Framework</span></a>
+                                <ul class="menu">
+                    <li class="menu-item menu-item--expanded">
+        <a href="/index.php/platform-support/creating-custom-driver" class="collapse menu-closed" data-drupal-link-system-path="node/311">Simple Driver</a>
+                                <ul class="menu">
+                    <li class="menu-item">
+        <a href="/index.php/platform-support/external-camera-calibration" data-drupal-link-system-path="node/314">Camera Calibration</a>
+              </li>
+        </ul>
+  
+              </li>
+                <li class="menu-item">
+        <a href="/index.php/platform-support/vuforia-support-custom-devices-using-vuforia-driver" data-drupal-link-system-path="node/312">Advanced Driver</a>
+              </li>
+                <li class="menu-item">
+        <a href="/index.php/platform-support/using-external-cameras-uwp" data-drupal-link-system-path="node/412">External Cameras</a>
+              </li>
+                <li class="menu-item">
+        <a href="/index.php/platform-support/building-and-using-file-driver-sample-native" data-drupal-link-system-path="node/415">File Driver Sample</a>
+              </li>
+        </ul>
+  
+              </li>
+        </ul>
+  
+              </li>
+                <li class="menu-item menu-item--expanded">
+        <a href="/index.php/platform-support/platform-frameworks" class="collapse menu-closed" data-drupal-link-system-path="node/371">Platform Frameworks</a>
+                                <ul class="menu">
+                    <li class="menu-item">
+        <a href="/index.php/platform-support/using-arcore-vuforia-engine-native" data-drupal-link-system-path="node/414">ARCore</a>
+              </li>
+                <li class="menu-item menu-item--expanded">
+        <a href="/index.php/platform-support/using-vuforia-fusion-platform-handle" class="collapse menu-closed" data-drupal-link-system-path="node/302">Platform Handle</a>
+                                <ul class="menu">
+                    <li class="menu-item">
+        <a href="/index.php/platform-support/using-vuforia-fusion-illumination" data-drupal-link-system-path="node/303">Illumination</a>
+              </li>
+        </ul>
+  
+              </li>
+        </ul>
+  
+              </li>
+                <li class="menu-item">
+        <a href="/index.php/platform-support/session-recorder-native-api" data-drupal-link-system-path="node/413">Session Recording API</a>
+              </li>
+                <li class="menu-item menu-item--expanded">
+        <a href="/index.php/platform-support/rendering-native" class="collapse menu-closed" data-drupal-link-system-path="node/328">Rendering</a>
+                                <ul class="menu">
+                    <li class="menu-item">
+        <a href="/index.php/platform-support/rendering-in-native/mesh-observer" data-drupal-link-system-path="node/395">Mesh Observer</a>
+              </li>
+        </ul>
+  
+              </li>
+        </ul>
+  
+              </li>
+                <li class="menu-item menu-item--expanded">
+        <span class="collapse menu-closed">Data Security</span>
+                                <ul class="menu">
+                    <li class="menu-item">
+        <a href="/index.php/faqs/vuforia-engine-data-security" data-drupal-link-system-path="node/408">Overview</a>
+              </li>
+                <li class="menu-item">
+        <a href="/index.php/objects/model-target-generator-data-processing" data-drupal-link-system-path="node/235">Model Target Data</a>
+              </li>
+                <li class="menu-item">
+        <a href="/index.php/area-targets/area-target-generation-data-processing" data-drupal-link-system-path="node/409">Area Target Data</a>
+              </li>
+        </ul>
+  
+              </li>
+                <li class="menu-item menu-item--expanded">
+        <span class="collapse menu-closed"><i class="fa fa fa-code" aria-hidden="true"></i> <span class="link-text">API</span></span>
+                                <ul class="menu">
+                    <li class="menu-item">
+        <a href="/index.php/sites/default/files/references/native/index.html" target="_blank" class="c-plus bg_img">C API</a>
+              </li>
+        </ul>
+  
+              </li>
+                <li class="menu-item menu-item--expanded">
+        <span class="collapse menu-closed"><i class="fa fa fa-question" aria-hidden="true"></i> <span class="link-text">FAQ</span></span>
+                                <ul class="menu">
+                    <li class="menu-item">
+        <a href="/index.php/faqs/frequently-asked-questions" data-drupal-link-system-path="node/343">Overview</a>
+              </li>
+                <li class="menu-item">
+        <a href="/index.php/faqs/usage" data-drupal-link-system-path="node/336">Images &amp; Objects Tracking</a>
+              </li>
+                <li class="menu-item">
+        <a href="/index.php/faqs/environment/tracking" data-drupal-link-system-path="node/334">Environment Tracking</a>
+              </li>
+                <li class="menu-item">
+        <a href="/index.php/faqs/development-vuforia-engine" data-drupal-link-system-path="node/418">Development</a>
+              </li>
+                <li class="menu-item menu-item--expanded">
+        <a href="/index.php/faqs/account-management" class="collapse menu-closed" data-drupal-link-system-path="node/333">Account Management</a>
+                                <ul class="menu">
+                    <li class="menu-item">
+        <a href="/index.php/faqs/target-manager" data-drupal-link-system-path="node/398">Target Manager</a>
+              </li>
+                <li class="menu-item">
+        <a href="/index.php/faqs/license-manager-faq" data-drupal-link-system-path="node/332">Licenses</a>
+              </li>
+        </ul>
+  
+              </li>
+                <li class="menu-item menu-item--expanded">
+        <a href="/index.php/faqs/pricing-and-licensing-options" class="collapse menu-closed" data-drupal-link-system-path="node/331">Pricing and Licensing</a>
+                                <ul class="menu">
+                    <li class="menu-item">
+        <a href="/index.php/faqs/how-make-vuforia-license-changes" data-drupal-link-system-path="node/384">Making License Changes</a>
+              </li>
+        </ul>
+  
+              </li>
+                <li class="menu-item">
+        <a href="/index.php/faqs/data-security" data-drupal-link-system-path="node/419">Data Security</a>
+              </li>
+                <li class="menu-item">
+        <a href="/index.php/faqs/support" data-drupal-link-system-path="node/335">Support</a>
+              </li>
+        </ul>
+  
+              </li>
+                <li class="menu-item menu-item--expanded">
+        <span class="collapse menu-closed">Troubleshooting</span>
+                                <ul class="menu">
+                    <li class="menu-item">
+        <a href="/index.php/troubleshooting/troubleshooting-your-app" data-drupal-link-system-path="node/421">Troubleshooting your App</a>
+              </li>
+        </ul>
+  
+              </li>
+                <li class="menu-item menu-item--expanded">
+        <span class="collapse menu-closed">Vuforia 10 Migration</span>
+                                <ul class="menu">
+                    <li class="menu-item">
+        <a href="/index.php/project-migration/how-migrate-native-project" data-drupal-link-system-path="node/330">Migrate a Native Project</a>
+              </li>
+        </ul>
+  
+              </li>
+                <li class="menu-item menu-item--expanded">
+        <span class="collapse menu-closed">Release Notes</span>
+                                <ul class="menu">
+                    <li class="menu-item">
+        <a href="/index.php/release-notes/vuforia-engine-release-notes" data-drupal-link-system-path="node/337">Vuforia Engine</a>
+              </li>
+                <li class="menu-item">
+        <a href="/index.php/release-notes/vuforia-tools-and-test-app-release-notes" data-drupal-link-system-path="node/338">Vuforia Tools and Apps</a>
+              </li>
+        </ul>
+  
+              </li>
+        </ul>
+  
+              </li>
+        </ul>
+  
+
+
+    </div>
+  </nav>
+
+  </div>
+
+            </aside>
+          </div>
+                      </div>
+    </div>
+        
+    		      <script type="text/javascript">
+	        var url = window.location.pathname;
+	        if (url.indexOf('/library') >= 0) {
+	        jQuery("#drupalLibrary").addClass("active");
+	        }
+	      </script>
+	    
+    
+<footer class="page-footer">
+	<div class="iparys_inherited">
+		<div class="iParsysFooter iparsys parsys">
+			<div class="fourComponentFooter parbase section">
+				<article>
+					<div class="container">
+						<div class="footer-row">
+						  <div class="footer-col" id ="engine">
+							<p class="footer-column-title"> Vuforia Engine </p>
+							<ul class="footer-links links__community">
+								<li>
+									<a href="https://developer.vuforia.com/home" target="_blank">Home</a>
+								</li>
+								<li>
+									<a href="https://developer.vuforia.com/support" target="_blank">Support Center</a>
+								</li>
+								<li>
+									<a href="https://developer.vuforia.com/downloads/sdk" target="_blank">Downloads</a>
+								</li>
+								<li>
+									<a href=https://developer.vuforia.com/ target="_blank">Library</a>
+								</li>
+							</ul>
+						  </div>
+						  <div class="footer-col" id ="ptc">
+							<p class="footer-column-title"> PTC, Inc. </p>
+							<ul class="footer-links links__ptc">
+								<li>
+									<a href="https://www.ptc.com/en/products/vuforia" target="_blank">Products</a>
+								</li>
+								<li>
+									<a href="https://www.ptc.com/en/news" target="_blank">Latest News</a>
+								</li>
+								<li>
+									<a href="https://www.ptc.com/en/careers" target="_blank">Careers</a>
+								</li>
+								<li>
+									<a href="https://www.ptc.com/en/technologies/augmented-reality/contact-us" target="_blank">Contact Us</a>
+								</li>
+							</ul>
+						  </div>
+						  <div class="footer-col" id ="policies">
+							<p class="footer-column-title"> Policies </p>        
+							<ul class="footer-links links__resources">
+								<li>
+									<a href="https://developer.vuforia.com/legal/vuforia-developer-agreement" target="_blank">Developer Agreement</a>
+								</li>
+								<li>
+									<a href="https://developer.vuforia.com/legal/tos" target="_blank">Terms of Use</a>
+								</li>
+								<li>
+									<a href="https://www.ptc.com/en/documents/policies/privacy" target="_blank">Privacy Policy</a>
+								</li>
+								<li>
+									<a href=" https://www.ptc.com/en/about/trust-center" target="_blank">PTC Trust Center</a>
+								</li>
+							</ul>
+						  </div>
+						</div>
+					  </div>
+				</article>
+				<section
+					class="footer__sub">
+					<!-- legal and ptc logo -->
+					<div class="footer-bottom-wrapper">
+						<div class="links-container pull-left">
+														<p>&copy; Copyright 2024 PTC</p>
+						</div>
+						<div class="pull-right">
+							<ul class="inline-social">
+								<li class="icon-social">
+									<a href="https://www.facebook.com/Vuforia/" target="_blank">
+										<svg class="svg-inline--fa fa-facebook-f fa-w-9 fa-lg" aria-hidden="true" data-prefix="fab" data-icon="facebook-f" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 264 512" data-fa-i2svg="">
+											<path fill="currentColor" d="M76.7 512V283H0v-91h76.7v-71.7C76.7 42.4 124.3 0 193.8 0c33.3 0 61.9 2.5 70.2 3.6V85h-48.2c-37.8 0-45.1 18-45.1 44.3V192H256l-11.7 91h-73.6v229"></path>
+										  </svg><!-- <i class="fab fa-facebook-f fa-lg"></i> --></a>
+								</li>
+								<li class="icon-social">
+									<a href="https://twitter.com/vuforia" target="_blank">
+										<svg class="svg-inline--fa fa-brands fa-x-twitter fa-w-16 fa-lg" aria-hidden="true" data-prefix="fab" data-icon="twitter" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" version="1.1">
+											<path fill="currentColor" d="M18.244 2.25h3.308l-7.227 8.26 8.502 11.24H16.17l-5.214-6.817L4.99 21.75H1.68l7.73-8.835L1.254 2.25H8.08l4.713 6.231zm-1.161 17.52h1.833L7.084 4.126H5.117z"/>
+										  </svg><!-- <i class="fab fa-x-twitter fa-lg"></i> --></a>
+								</li>
+								<li class="icon-social">
+									<a href="https://www.linkedin.com/company/vuforia-a-ptc-technology" target="_blank">
+										<svg class="svg-inline--fa fa-linkedin-in fa-w-14 fa-lg" aria-hidden="true" data-prefix="fab" data-icon="linkedin-in" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512" data-fa-i2svg="">
+											<path fill="currentColor" d="M100.3 480H7.4V180.9h92.9V480zM53.8 140.1C24.1 140.1 0 115.5 0 85.8 0 56.1 24.1 32 53.8 32c29.7 0 53.8 24.1 53.8 53.8 0 29.7-24.1 54.3-53.8 54.3zM448 480h-92.7V334.4c0-34.7-.7-79.2-48.3-79.2-48.3 0-55.7 37.7-55.7 76.7V480h-92.8V180.9h89.1v40.8h1.3c12.4-23.5 42.7-48.3 87.9-48.3 94 0 111.3 61.9 111.3 142.3V480z"></path>
+										  </svg><!-- <i class="fab fa-linkedin-in fa-lg"></i> --></a>
+								</li>
+								<li class="icon-social">
+									<a href="https://www.youtube.com/vuforia" target="_blank">
+										<svg class="svg-inline--fa fa-youtube fa-w-18 fa-lg" aria-hidden="true" data-prefix="fab" data-icon="youtube" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512" data-fa-i2svg="">
+											<path fill="currentColor" d="M549.655 124.083c-6.281-23.65-24.787-42.276-48.284-48.597C458.781 64 288 64 288 64S117.22 64 74.629 75.486c-23.497 6.322-42.003 24.947-48.284 48.597-11.412 42.867-11.412 132.305-11.412 132.305s0 89.438 11.412 132.305c6.281 23.65 24.787 41.5 48.284 47.821C117.22 448 288 448 288 448s170.78 0 213.371-11.486c23.497-6.321 42.003-24.171 48.284-47.821 11.412-42.867 11.412-132.305 11.412-132.305s0-89.438-11.412-132.305zm-317.51 213.508V175.185l142.739 81.205-142.739 81.201z"></path>
+										  </svg><!-- <i class="fab fa-youtube fa-lg"></i> --></a>
+								</li>
+								<li class="icon-social">
+									<a href="https://www.instagram.com/vuforia" target="_blank">
+										<svg class="svg-inline--fa fa-instagram fa-w-14 fa-lg" aria-hidden="true" data-prefix="fab" data-icon="instagram" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512" data-fa-i2svg="">
+											<path fill="currentColor" d="M224.1 141c-63.6 0-114.9 51.3-114.9 114.9s51.3 114.9 114.9 114.9S339 319.5 339 255.9 287.7 141 224.1 141zm0 189.6c-41.1 0-74.7-33.5-74.7-74.7s33.5-74.7 74.7-74.7 74.7 33.5 74.7 74.7-33.6 74.7-74.7 74.7zm146.4-194.3c0 14.9-12 26.8-26.8 26.8-14.9 0-26.8-12-26.8-26.8s12-26.8 26.8-26.8 26.8 12 26.8 26.8zm76.1 27.2c-1.7-35.9-9.9-67.7-36.2-93.9-26.2-26.2-58-34.4-93.9-36.2-37-2.1-147.9-2.1-184.9 0-35.8 1.7-67.6 9.9-93.9 36.1s-34.4 58-36.2 93.9c-2.1 37-2.1 147.9 0 184.9 1.7 35.9 9.9 67.7 36.2 93.9s58 34.4 93.9 36.2c37 2.1 147.9 2.1 184.9 0 35.9-1.7 67.7-9.9 93.9-36.2 26.2-26.2 34.4-58 36.2-93.9 2.1-37 2.1-147.8 0-184.8zM398.8 388c-7.8 19.6-22.9 34.7-42.6 42.6-29.5 11.7-99.5 9-132.1 9s-102.7 2.6-132.1-9c-19.6-7.8-34.7-22.9-42.6-42.6-11.7-29.5-9-99.5-9-132.1s-2.6-102.7 9-132.1c7.8-19.6 22.9-34.7 42.6-42.6 29.5-11.7 99.5-9 132.1-9s102.7-2.6 132.1 9c19.6 7.8 34.7 22.9 42.6 42.6 11.7 29.5 9 99.5 9 132.1s2.7 102.7-9 132.1z"></path>
+										  </svg><!-- <i class="fab fa-instagram fa-lg"></i> --></a>
+								</li>
+							</ul>
+					    </div>
+					</div>
+				</section>
+			</div>
+		</div>
+	</div>
+
+</footer>
+  </div>
+</div>
+  </div>
+
+    
+    <script type="application/json" data-drupal-selector="drupal-settings-json">{"path":{"baseUrl":"\/","scriptPath":null,"pathPrefix":"","currentPath":"","currentPathIsAdmin":false,"isFront":false,"currentLanguage":"en"},"pluralDelimiter":"\u0003","suppressDeprecationErrors":true,"ajaxPageState":{"libraries":"auto_anchors\/auto_anchors,bartik\/classy.base,bartik\/classy.messages,bartik\/classy.node,bartik\/global-styling,codesnippet\/codesnippet.highlightjs,codesnippet\/codesnippet.style.atelier-forest.light,core\/normalize,fontawesome\/fontawesome.svg,fontawesome\/fontawesome.svg.shim,search_api_autocomplete\/search_api_autocomplete,system\/base,views_autocomplete_filters\/drupal.views-autocomplete-filters,vuforialib\/global-styling","theme":"vuforialib","theme_token":null},"ajaxTrustedUrl":{"\/search\/content":true},"auto_anchors":{"show_automatic_anchor_links":true,"root_elements":"#block-vuforialib-content","anchor_elements":"h3","link_content":"\u003Ci style=\u0022font-size:10px\u0022 class=\u0022fa\u0022\u003E\u0026#xf0c1;\u003C\/i\u003E","exclude_admin_pages":null},"search_api_autocomplete":{"search_content":{"auto_submit":true}},"user":{"uid":0,"permissionsHash":"a3e3319b9c1c9969107a8bd38f5f8cc9cae277d220621c6b047bfadff700a751"}}</script>
+<script src="/sites/default/files/js/js_fBrTJ2UCSf9sJPjhfASywn9HtzQfeLYjB6bnhSnv2-A.js"></script>
+
+  <script type="text/javascript" src="/_Incapsula_Resource?SWJIYLWA=719d34d31c8e3a6e6fffd425f7e032f3&ns=1&cb=1332005526" async></script></body>
+</html>
